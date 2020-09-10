@@ -229,7 +229,7 @@ def parse_patients(job, patient_dict, skip_fusions=False):
 
     if 'hla_haplotype_files' not in patient_dict:
         # If we don't have the haplotype, we necessarily need all the fastqs
-        for stype in 'tumor_dna', 'normal_dna', 'tumor_rna':
+        for stype in 'tumor_rna':
             out_keys.update([x for x in patient_dict if x.startswith(stype + '_fastq')])
     else:
         out_keys.add('hla_haplotype_files')
@@ -246,7 +246,7 @@ def parse_patients(job, patient_dict, skip_fusions=False):
     else:
         if 'fusion_bedpe' not in patient_dict:
             # We are not looking at just fusions so we either need 3 bams/fastqs to run ProTECT
-            for stype in 'tumor_dna', 'normal_dna', 'tumor_rna':
+            for stype in 'tumor_rna':
                 if stype + '_bam' in patient_dict:
                     out_keys.add(stype + '_bam')
                 else:
@@ -465,7 +465,7 @@ def launch_protect(job, patient_data, univ_options, tool_options):
     bam_files = defaultdict(lambda: None)
     delete_bam_files = defaultdict(lambda: None)
     phlat_files = defaultdict(lambda: None)
-    for sample_type in 'tumor_dna', 'normal_dna', 'tumor_rna':
+    for sample_type in 'tumor_rna':
         if sample_type + '_fastq_1' in patient_data:
             fastq_files[sample_type] = job.wrapJobFn(get_patient_fastqs, sample_prep.rv(),
                                                      sample_type, disk='10M')
@@ -478,28 +478,19 @@ def launch_protect(job, patient_data, univ_options, tool_options):
                                                    disk='10M').encapsulate()
             sample_prep.addChild(bam_files[sample_type])
 
-    # define the haplotyping subgraph of the DAG
-    if 'hla_haplotype_files' in patient_data:
-        haplotype_patient = job.wrapJobFn(get_patient_mhc_haplotype, sample_prep.rv())
-        sample_prep.addChild(haplotype_patient)
-    else:
-        assert None not in list(fastq_files.values())
-        # We are guaranteed to have fastqs here
-        for sample_type in 'tumor_dna', 'normal_dna', 'tumor_rna':
-            phlat_files[sample_type] = job.wrapJobFn(
-                run_phlat, fastq_files[sample_type].rv(), sample_type, univ_options,
-                tool_options['phlat'], cores=tool_options['phlat']['n'],
-                disk=PromisedRequirement(phlat_disk, fastq_files[sample_type].rv()))
-            fastq_files[sample_type].addChild(phlat_files[sample_type])
-            phlat_files[sample_type].addChild(fastq_deletion_1)
-        haplotype_patient = job.wrapJobFn(merge_phlat_calls,
-                                          phlat_files['tumor_dna'].rv(),
-                                          phlat_files['normal_dna'].rv(),
-                                          phlat_files['tumor_rna'].rv(),
-                                          univ_options, disk='100M', memory='100M', cores=1)
-        phlat_files['tumor_dna'].addChild(haplotype_patient)
-        phlat_files['normal_dna'].addChild(haplotype_patient)
-        phlat_files['tumor_rna'].addChild(haplotype_patient)
+    assert None not in list(fastq_files.values())
+    # We are guaranteed to have fastqs here
+    for sample_type in 'tumor_rna':
+        phlat_files[sample_type] = job.wrapJobFn(
+            run_phlat, fastq_files[sample_type].rv(), sample_type, univ_options,
+            tool_options['phlat'], cores=tool_options['phlat']['n'],
+            disk=PromisedRequirement(phlat_disk, fastq_files[sample_type].rv()))
+        fastq_files[sample_type].addChild(phlat_files[sample_type])
+        phlat_files[sample_type].addChild(fastq_deletion_1)
+    haplotype_patient = job.wrapJobFn(merge_phlat_calls,
+                                      phlat_files['tumor_rna'].rv(),
+                                      univ_options, disk='100M', memory='100M', cores=1)
+    phlat_files['tumor_rna'].addChild(haplotype_patient)
 
     # Define the RNA-Seq Alignment subgraph if needed
     if bam_files['tumor_rna'] is None:
@@ -595,56 +586,12 @@ def launch_protect(job, patient_data, univ_options, tool_options):
                                               univ_options, tool_options['reports'],
                                               disk='100M', memory='100M', cores=1)
     rsem.addChild(car_t_validity_assessment)
-    # Define the DNA-Seq alignment and mutation calling subgraphs if necessary
-    if 'mutation_vcf' in patient_data:
-        get_mutations = job.wrapJobFn(get_patient_vcf, sample_prep.rv())
-        sample_prep.addChild(get_mutations)
-    elif 'fusion_bedpe' in patient_data:
-        # Fusions have been handled above, and we don't need to align DNA
-        get_mutations = None
-    else:
-        assert (None, None) not in list(zip(list(fastq_files.values()), list(bam_files.values())))
-        for sample_type in 'tumor_dna', 'normal_dna':
-            if bam_files[sample_type] is None:
-                assert fastq_files[sample_type] is not None
-                bam_files[sample_type] = job.wrapJobFn(align_dna, fastq_files[sample_type].rv(),
-                                                       sample_type, univ_options,
-                                                       tool_options['bwa'], cores=1,
-                                                       disk='100M').encapsulate()
-                fastq_files[sample_type].addChild(bam_files[sample_type])
-                bam_files[sample_type].addChild(fastq_deletion_1)
-            else:
-                # We already have the bam ready to go
-                pass
-            delete_bam_files[sample_type] = job.wrapJobFn(delete_bams,
-                                                          bam_files[sample_type].rv(),
-                                                          univ_options['patient'], disk='100M',
-                                                          memory='100M')
-            bam_files[sample_type].addChild(delete_bam_files[sample_type])
+
         # Time to call mutations
         mutations = {
             'radia': job.wrapJobFn(run_radia, bam_files['tumor_rna'].rv(),
-                                   bam_files['tumor_dna'].rv(), bam_files['normal_dna'].rv(),
                                    univ_options, tool_options['radia'],
-                                   disk='100M').encapsulate(),
-            'mutect': job.wrapJobFn(run_mutect, bam_files['tumor_dna'].rv(),
-                                    bam_files['normal_dna'].rv(), univ_options,
-                                    tool_options['mutect'], disk='100M').encapsulate(),
-            'muse': job.wrapJobFn(run_muse, bam_files['tumor_dna'].rv(),
-                                  bam_files['normal_dna'].rv(), univ_options,
-                                  tool_options['muse']).encapsulate(),
-            'somaticsniper': job.wrapJobFn(run_somaticsniper, bam_files['tumor_dna'].rv(),
-                                           bam_files['normal_dna'].rv(), univ_options,
-                                           tool_options['somaticsniper']).encapsulate(),
-            'strelka': job.wrapJobFn(run_strelka, bam_files['tumor_dna'].rv(),
-                                     bam_files['normal_dna'].rv(), univ_options,
-                                     tool_options['strelka']).encapsulate(),
-            'indels': job.wrapJobFn(run_indel_caller, bam_files['tumor_dna'].rv(),
-                                    bam_files['normal_dna'].rv(), univ_options, 'indel_options',
-                                    disk='100M', memory='100M', cores=1)}
-        for sample_type in 'tumor_dna', 'normal_dna':
-            for caller in mutations:
-                bam_files[sample_type].addChild(mutations[caller])
+                                   disk='100M').encapsulate()}
         bam_files['tumor_rna'].addChild(mutations['radia'])
         get_mutations = job.wrapJobFn(run_mutation_aggregator,
                                       {caller: cjob.rv() for caller, cjob in list(mutations.items())},
@@ -652,11 +599,6 @@ def launch_protect(job, patient_data, univ_options, tool_options):
                                       cores=1).encapsulate()
         for caller in mutations:
             mutations[caller].addChild(get_mutations)
-        # We don't need the normal dna bam any more
-        get_mutations.addChild(delete_bam_files['normal_dna'])
-        # We may need the tumor one depending on OxoG
-        if not patient_data['filter_for_OxoG']:
-            get_mutations.addChild(delete_bam_files['tumor_dna'])
 
     if get_mutations is not None:
         snpeff = job.wrapJobFn(run_snpeff, get_mutations.rv(), univ_options, tool_options['snpeff'],
@@ -667,21 +609,17 @@ def launch_protect(job, patient_data, univ_options, tool_options):
         snpeff = None
 
     # The rest of the subgraph should be unchanged
-    tumor_dna_bam = bam_files['tumor_dna'].rv() if patient_data['filter_for_OxoG'] else None
     fusion_calls = fusions.rv() if fusions else None
     snpeffed_calls = snpeff.rv() if snpeff else None
     transgene = job.wrapJobFn(run_transgene, snpeffed_calls, bam_files['tumor_rna'].rv(),
                               univ_options, tool_options['transgene'],
                               disk=PromisedRequirement(transgene_disk, bam_files['tumor_rna'].rv()),
-                              memory='100M', cores=1, tumor_dna_bam=tumor_dna_bam,
+                              memory='100M', cores=1,
                               fusion_calls=fusion_calls)
     if snpeff:
         snpeff.addChild(transgene)
     bam_files['tumor_rna'].addChild(transgene)
     transgene.addChild(delete_bam_files['tumor_rna'])
-    if patient_data['filter_for_OxoG']:
-        bam_files['tumor_dna'].addChild(transgene)
-        transgene.addChild(delete_bam_files['tumor_dna'])
     if fusions:
         fusions.addChild(transgene)
 
@@ -782,18 +720,14 @@ def prepare_samples(job, patient_dict, univ_options):
 
     :param dict patient_dict: The input fastq dict
            patient_dict:
-               |- 'tumor_dna_fastq_[12]' OR 'tumor_dna_bam': str
                |- 'tumor_rna_fastq_[12]' OR 'tumor_rna_bam': str
-               |- 'normal_dna_fastq_[12]' OR 'normal_dna_bam': str
                |- 'mutation_vcf': str
                |- 'hla_haplotype_files': str
                +- 'patient_id': str
     :param dict univ_options: Dict of universal options used by almost all tools
     :return: Updated fastq dict
              output_dict:
-                 |- 'tumor_dna_fastq_[12]' OR 'tumor_dna_bam': fsID
                  |- 'tumor_rna_fastq_[12]' OR 'tumor_rna_bam': fsID
-                 |- 'normal_dna_fastq_[12]' OR 'normal_dna_bam': fsID
                  |- 'mutation_vcf': fsID
                  |- 'hla_haplotype_files': fsId
                  +- 'patient_id': str
@@ -832,7 +766,7 @@ def get_patient_bams(job, patient_dict, sample_type, univ_options, bwa_options, 
     Convenience function to return the bam and its index in the correct format for a sample type.
 
     :param dict patient_dict: dict of patient info
-    :param str sample_type: 'tumor_rna', 'tumor_dna', 'normal_dna'
+    :param str sample_type: 'tumor_rna'
     :param dict univ_options: Dict of universal options used by almost all tools
     :param dict bwa_options: Options specific to bwa
     :param dict bwa_options: Options specific to mutect
@@ -840,12 +774,8 @@ def get_patient_bams(job, patient_dict, sample_type, univ_options, bwa_options, 
     :rtype: dict
     """
     output_dict = {}
-    if 'dna' in sample_type:
-        sample_info = 'fix_pg_sorted'
-        prefix = sample_type + '_' + sample_info
-    else:
-        sample_info = 'genome_sorted'
-        prefix = 'rna_' + sample_info
+    sample_info = 'genome_sorted'
+    prefix = 'rna_' + sample_info
     if sample_type + '_bam' in patient_dict['gdc_inputs']:
         output_dict[prefix + '.bam'] = patient_dict[sample_type + '_bam'][0]
         output_dict[prefix + '.bam.bai'] = patient_dict[sample_type + '_bam'][1]
@@ -905,23 +835,6 @@ def get_patient_bedpe(job, patient_dict):
     else:
         outfile = patient_dict['fusion_bedpe']
     return outfile
-
-
-def get_patient_mhc_haplotype(job, patient_dict):
-    """
-    Convenience function to get the mhc haplotype from the patient dict
-
-    :param dict patient_dict: dict of patient info
-    :return: The MHCI and MHCII haplotypes
-    :rtype: toil.fileStore.FileID
-    """
-    haplotype_archive = job.fileStore.readGlobalFile(patient_dict['hla_haplotype_files'])
-    haplotype_archive = untargz(haplotype_archive, os.getcwd())
-    output_dict = {}
-    for filename in 'mhci_alleles.list', 'mhcii_alleles.list':
-        output_dict[filename] = job.fileStore.writeGlobalFile(os.path.join(haplotype_archive,
-                                                                           filename))
-    return output_dict
 
 
 def get_patient_expression(job, patient_dict):

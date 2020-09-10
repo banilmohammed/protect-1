@@ -110,42 +110,12 @@ def _ensure_patient_group_is_ok(patient_object, patient_name=None):
         raise ParameterError(('The patient entry for sample %s ' % patient_name) +
                              'does contains an invalid Tumor type. Please use one of the '
                              'valid TCGA tumor types.')
-    if {'tumor_dna_fastq_1', 'normal_dna_fastq_1', 'tumor_rna_fastq_1'}.issubset(test_set):
+    if {'tumor_rna_fastq_1'}.issubset(test_set):
         # Best case scenario, we get all fastqs
         pass
     else:
-        # We have less than 3 fastqs so we have to have a haplotype.
-        if 'hla_haplotype_files' not in test_set:
-            raise ParameterError(('The patient entry for sample %s ' % patient_name) +
-                                 'does not contain a hla_haplotype_files entry.\nCannot haplotype '
-                                 'patient if all the input sequence files are not fastqs.')
-        # Either we have a fastq and/or bam for the tumor and normal, or we need to be given a vcf
-        if (({re.search('tumor_dna_((bam)|(fastq_1)).*', x) for x in test_set} == {None} or
-                {re.search('normal_dna_((bam)|(fastq_1)).*', x) for x in test_set} == {None}) and
-                ('mutation_vcf' not in test_set and 'fusion_bedpe' not in test_set)):
-            raise ParameterError(('The patient entry for sample %s ' % patient_name) +
-                                 'does not contain a mutation_vcf or fusion_bedpe entry. If both '
-                                 'tumor and normal DNA sequences (fastqs or bam) are not provided, '
-                                 'a pre-computed vcf and/or bedpe must be provided.')
-        # We have to be given a tumor rna fastq or bam unless we are processing ONLY fusions
-        if {re.search('tumor_rna_((bam)|(fastq_1)).*', x) for x in test_set} == {None}:
-            if 'mutation_vcf' not in test_set and 'fusion_bedpe' in test_set:
-                # The only case where it is ok to not have the genome mapped rna.
-                pass
-            else:
-                raise ParameterError(('The patient entry for sample %s ' % patient_name) +
-                                     'does not contain a tumor rna sequence data entry. We require '
-                                     'either tumor_rna_fastq_1 or tumor_rna_bam.')
-        # If we are given an RNA bam then it needs to have a corresponding transcriptome bam unless
-        # we have also been provided expression values.
-        if 'tumor_rna_bam' in test_set and 'tumor_rna_transcriptome_bam' not in test_set:
-            if 'expression_files' not in test_set:
-                raise ParameterError(('The patient entry for sample %s ' % patient_name +
-                                      'was provided a tumor rna bam with sequences mapped to the '
-                                      'genome but was not provided a matching rna bam for the '
-                                      'transcriptome or a tar containing expression values. '
-                                      'We require either a matching transcriptome bam to estimate'
-                                      'expression, or the precomputed expression values.'))
+        raise ParameterError(('The patient entry for sample %s ' % patient_name) +
+                                 'does not cannot a tumor rna fastq file')
 
 
 def _add_default_entries(input_dict, defaults_dict):

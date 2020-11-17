@@ -1,0 +1,2 @@
+2020-11-16 22:55:55,653 - INFO - Beginning variant calling
+2020-11-16 22:55:55,653 - INFO - Output will go to variants.vcf

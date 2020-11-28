@@ -53,6 +53,12 @@ green=\033[0;32m
 normal=\033[0m
 red=\033[0;31m
 
+# WIP 
+special_install: check_venv
+	git clone https://github.com/Dranion/bd2k-extras.git
+	make -C bd2k-extras/bd2k-python-lib develop
+	make -C bd2k-extras/s3am develop
+
 prepare: check_venv
 	@$(pip) install toil pytest  
 
@@ -106,11 +112,10 @@ clean_pypi:
 
 clean: clean_develop clean_sdist clean_pypi
 
-#always fails, even though in a venv
-#check_venv:
-#	@$(python) -c 'import sys; sys.exit( int( not hasattr(sys, "real_prefix") ) )' \
-#		|| ( echo "$(red)A virtualenv must be active.$(normal)" ; false )
-
+check_venv:
+	@$(python) -c 'import sys; sys.exit( int( not (hasattr(sys, "real_prefix") or ( hasattr(sys, "base_prefix") and sys.base_prefix != sys.prefix ) ) ) )' \
+		|| [ ! -z "${VIRTUAL_ENV}" ] \
+		|| ( echo "$(red)A virtualenv must be active.$(normal)\n" ; false )
 
 check_clean_working_copy:
 	@echo "$(green)Checking if your working copy is clean ...$(normal)"

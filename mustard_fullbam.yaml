@@ -28,13 +28,15 @@
 # Any number of patients/samples can be listed here
 patients:
     TEST:
-        tumor_dna_fastq_1: /scratch/drkthomp/gerald_D1VCPACXX_1_1.fastq
-        tumor_dna_fastq_2: /scratch/drkthomp/gerald_D1VCPACXX_1_2.fastq
-        normal_dna_fastq_1: /scratch/drkthomp/gerald_D1VCPACXX_6_1.fastq
-        normal_dna_fastq_2: /scratch/drkthomp/gerald_D1VCPACXX_6_2.fastq
-        tumor_rna_fastq_1: /scratch/drkthomp/gerald_C1TD1ACXX_8_ACAGTG_1.fastq
-        tumor_rna_fastq_2: /scratch/drkthomp/gerald_C1TD1ACXX_8_ACAGTG_2.fastq
-        mutation_vcf: /private/home/drkthomp/opossum/variants_rna_genome_sorted.vcf 
+        tumor_dna_fastq_1: /scratch/drkthomp/fullbams/gerald_D1VCPACXX_1_R1.fastq
+        tumor_dna_fastq_2: /scratch/drkthomp/fullbams/gerald_D1VCPACXX_1_R2.fastq
+        normal_dna_fastq_1: /scratch/drkthomp/fullbams/gerald_D1VCPACXX_6_R1.fastq
+        normal_dna_fastq_2: /scratch/drkthomp/fullbams/gerald_D1VCPACXX_6_R2.fastq
+        tumor_rna_fastq_1: /scratch/drkthomp/fullbams/gerald_C1TD1ACXX_8_ACAGTG_R1.fastq
+        tumor_rna_fastq_2: /scratch/drkthomp/fullbams/gerald_C1TD1ACXX_8_ACAGTG_R2.fastq
+        tumor_dna_bai: /scratch/drkthomp/fullbams/gerald_D1VCPACXX_1.sorted.bam.bai
+        normal_dna_bai: /scratch/drkthomp/fullbams/gerald_D1VCPACXX_6.sorted.bam.bai
+        tumor_rna_bai: /scratch/drkthomp/fullbams/gerald_C1TD1ACXX_8_ACAGTG.sorted.bam.bai
         tumor_type: 'SKCM'
 
 # These are options that are used by most tools
@@ -47,8 +49,8 @@ Universal_Options:
     # gdc_download_token: /path/to/token.txt # Path to the user's GDC download token.
     storage_location: Local # Local or aws:<bucket_name> for where the output must go
     #storage_location: aws:protect-run-xyz
-    output_folder: /private/home/drkthomp/results # Path to where the output must go.
-    #mail_to: test.email@host.com  # Email patients:
+    output_folder: /scratch/drkthomp/results # Path to where the output must go.
+    mail_to: drkthomp@ucsc.edu  # Email patients:
     #TEST:
     #    tumor_dna_fastq_1: /home/drkthomp/e/treehouse/gms/hcc1395_1tenth_percent/sort/gerald_D1VCPACXX_1_R1.fastq
     #    tumor_dna_fastq_2: /home/drkthomp/e/treehouse/gms/hcc1395_1tenth_percent/sort/gerald_D1VCPACXX_1_R2.fastq

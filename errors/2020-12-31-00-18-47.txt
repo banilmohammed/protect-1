@@ -1,0 +1,122 @@
+[2020-12-31T00:18:49-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+[2020-12-31T00:18:49-0800] [MainThread] [I] [toil.leader] Issued job 'parse_config_file' kind-parse_config_file/instance-kil2wrlc with job batch system ID: 0 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpt4vtjcqz/worker_log.txt
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Job ended: 'parse_config_file' kind-parse_config_file/instance-kil2wrlc
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] 0 jobs are running, 0 jobs are issued and waiting to run
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-i4wd3x_t with job batch system ID: 1 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-3tzj30y9 with job batch system ID: 2 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-yvp3evjf with job batch system ID: 3 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-6uzgtfs6 with job batch system ID: 4 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-vugf7w9w with job batch system ID: 5 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-7o224a00 with job batch system ID: 6 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-5pqyn2d_ with job batch system ID: 7 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-p9wfalrn with job batch system ID: 8 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-4ike421i with job batch system ID: 9 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-z4ntc6lq with job batch system ID: 10 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-jvu_uy7s with job batch system ID: 11 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-s9jv0kf6 with job batch system ID: 12 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-5s562e5z with job batch system ID: 13 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-8tkhrery with job batch system ID: 14 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-c7tygth7 with job batch system ID: 15 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-36yolgfs with job batch system ID: 16 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-uye153h5 with job batch system ID: 17 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-7fi3ipln with job batch system ID: 18 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-jk02lwer with job batch system ID: 19 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-mz4_jmqv with job batch system ID: 20 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-6qddne_n with job batch system ID: 21 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-zwcanf6p with job batch system ID: 22 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-cjg7tt1m with job batch system ID: 23 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-1f8nipo6 with job batch system ID: 24 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-wyxlnxd0 with job batch system ID: 25 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-y9a1rbg0 with job batch system ID: 26 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-x1rhb0n9 with job batch system ID: 27 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-x6k4pia0 with job batch system ID: 28 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:50-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-k6w1d_ap with job batch system ID: 29 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:18:51-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:51: Parsing config file
+[2020-12-31T00:18:51-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:51: Obtaining tool inputs
+[2020-12-31T00:18:51-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:51: Obtained tool inputs
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmp98x94mw8/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmp5spbt4gb/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpm1ghroj5/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpr8ei8ydu/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpojmg94k3/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpu874t3g2/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmp6_s6jlo2/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpo8r3tvjo/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmp82ht30pc/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmp3v7bletx/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmphtwbqnen/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpo2bqqr6i/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpz6iraajv/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpx9uxrkhe/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmp6u7c732x/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpd145d4lw/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpz52jazpb/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmp40y44711/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmp7vrj39vi/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpx7lzaesw/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpfagw81bx/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmp2shz6u4j/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpzvmzgk8y/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmp2atjr2rt/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpfsnuuwu9/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmppbn9nxv5/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpc5k365vh/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpph7fod8q/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpr0ybc5jl/worker_log.txt
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-36yolgfs
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-c7tygth7
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-p9wfalrn
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-jvu_uy7s
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-8tkhrery
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-uye153h5
+[2020-12-31T00:18:52-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-s9jv0kf6
+[2020-12-31T00:18:53-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-vugf7w9w
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (indexes:dbsnp_tbi) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (radia:pseudogene_beds) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (radia:gencode_beds) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (indexes:cosmic_idx) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (radia:retrogene_beds) to the file job store
+[2020-12-31T00:18:53-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-5pqyn2d_
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (strelka:config_file) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (mhci:method_file) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (indexes:dbsnp_idx) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (reports:itx_resistance_file) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (radia:cosmic_beds) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (indexes:genome_fai) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (reports:mhc_pathways_file) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (indexes:cosmic_vcf) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (transgene:gencode_peptide_fasta) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (mhcii:method_file) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (indexes:genome_dict) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (transgene:gencode_annotation_gtf) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (reports:car_t_targets_file) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (reports:immune_resistance_pathways_file) to the file job store
+[2020-12-31T00:18:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:53: Obtaining file (transgene:gencode_transcript_fasta) to the file job store
+[2020-12-31T00:18:53-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-7o224a00
+[2020-12-31T00:18:53-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-z4ntc6lq
+[2020-12-31T00:18:53-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-jk02lwer
+[2020-12-31T00:18:53-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-6qddne_n
+[2020-12-31T00:18:53-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-1f8nipo6
+[2020-12-31T00:18:53-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-wyxlnxd0
+[2020-12-31T00:18:53-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-y9a1rbg0
+[2020-12-31T00:18:53-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-x1rhb0n9
+[2020-12-31T00:18:53-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-x6k4pia0
+[2020-12-31T00:18:53-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-mz4_jmqv
+[2020-12-31T00:18:53-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-k6w1d_ap
+[2020-12-31T00:18:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:54: Obtaining file (indexes:genome_fasta) to the file job store
+[2020-12-31T00:18:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:54: Obtaining file (radia:dbsnp_beds) to the file job store
+[2020-12-31T00:18:54-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-6uzgtfs6
+[2020-12-31T00:18:54-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-5s562e5z
+[2020-12-31T00:18:54-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-zwcanf6p
+[2020-12-31T00:18:54-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-yvp3evjf
+[2020-12-31T00:18:54-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-7fi3ipln
+[2020-12-31T00:18:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:54: Obtaining file (transgene:genome_fasta) to the file job store
+[2020-12-31T00:18:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:54: Obtaining file (rsem:index) to the file job store
+[2020-12-31T00:18:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:54: Obtaining file (snpeff:index) to the file job store
+[2020-12-31T00:18:55-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-4ike421i
+[2020-12-31T00:18:55-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:55: Obtaining file (indexes:dbsnp_vcf) to the file job store
+[2020-12-31T00:18:57-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:57: Obtaining file (bwa:index) to the file job store
+[2020-12-31T00:18:57-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-3tzj30y9
+[2020-12-31T00:18:57-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-cjg7tt1m
+[2020-12-31T00:18:57-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:18:57: Obtaining file (phlat:index) to the file job store

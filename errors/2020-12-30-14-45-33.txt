@@ -1,0 +1,99 @@
+[2020-12-30T14:45:34-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-parse_config_file/instance-4igno9c7
+[2020-12-30T14:45:34-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-prepare_samples/instance-8ezuridv
+[2020-12-30T14:45:34-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+[2020-12-30T14:45:34-0800] [MainThread] [I] [toil.leader] Issued job 'prepare_samples' kind-prepare_samples/instance-8ezuridv with job batch system ID: 0 and cores: 1, disk: 40.0 G, and memory: 2.0 G
+[2020-12-30T14:45:34-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-a714ac38-8693-446d-acbd-e0e2f88ac787-e8611b53-bdab-4598-acae-87977f99831e/tmphk98nbtv/worker_log.txt
+[2020-12-30T14:45:35-0800] [Thread-1  ] [E] [toil.batchSystems.singleMachine] Got exit code 1 (indicating failure) from job _toil_worker prepare_samples file:/scratch/drkthomp/chr6jobStore kind-prepare_samples/instance-8ezuridv.
+[2020-12-30T14:45:35-0800] [MainThread] [W] [toil.leader] Job failed with exit value 1: 'prepare_samples' kind-prepare_samples/instance-8ezuridv
+[2020-12-30T14:45:35-0800] [MainThread] [W] [toil.leader] The job seems to have left a log file, indicating failure: 'prepare_samples' kind-prepare_samples/instance-8ezuridv
+[2020-12-30T14:45:35-0800] [MainThread] [W] [toil.leader] Log from job kind-prepare_samples/instance-8ezuridv follows:
+=========>
+	[2020-12-30T14:45:34-0800] [MainThread] [I] [toil.worker] ---TOIL WORKER OUTPUT LOG---
+	[2020-12-30T14:45:34-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+	[2020-12-30T14:45:35-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Downloading Inputs for CHR6
+	[2020-12-30T14:45:35-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Obtaining file (CHR6:normal_dna_fastq_1) to the file job store
+	Traceback (most recent call last):
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/worker.py", line 368, in workerScript
+	    job._runner(jobGraph=jobGraph, jobStore=jobStore, fileStore=fileStore, defer=defer)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1424, in _runner
+	    returnValues = self._run(jobGraph, fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1361, in _run
+	    return self.run(fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1565, in run
+	    rValue = userFunction(*((self,) + tuple(self._args)), **self._kwargs)
+	  File "/private/home/drkthomp/protect/src/protect/pipeline/ProTECT.py", line 847, in prepare_samples
+	    gdc_download_token=univ_options['gdc_download_token'])
+	  File "/private/home/drkthomp/protect/src/protect/pipeline/ProTECT.py", line 807, in get_pipeline_inputs
+	    assert os.path.exists(input_file), 'Bogus Input : ' + input_file
+	AssertionError: Bogus Input : /scratch/drkthomp/chry6_only/normal_chr6_1.fastq
+	[2020-12-30T14:45:35-0800] [MainThread] [E] [toil.worker] Exiting the worker because of a failed job on host mustard
+<=========
+[2020-12-30T14:45:35-0800] [MainThread] [W] [toil.jobGraph] Due to failure we are reducing the remaining retry count of job 'prepare_samples' kind-prepare_samples/instance-8ezuridv with ID kind-prepare_samples/instance-8ezuridv to 1
+[2020-12-30T14:45:35-0800] [MainThread] [I] [toil.leader] 0 jobs are running, 0 jobs are issued and waiting to run
+[2020-12-30T14:45:35-0800] [MainThread] [I] [toil.leader] Issued job 'prepare_samples' kind-prepare_samples/instance-8ezuridv with job batch system ID: 1 and cores: 1, disk: 40.0 G, and memory: 2.0 G
+[2020-12-30T14:45:36-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-a714ac38-8693-446d-acbd-e0e2f88ac787-e8611b53-bdab-4598-acae-87977f99831e/tmp7cw4b6gx/worker_log.txt
+[2020-12-30T14:45:36-0800] [Thread-1  ] [E] [toil.batchSystems.singleMachine] Got exit code 1 (indicating failure) from job _toil_worker prepare_samples file:/scratch/drkthomp/chr6jobStore kind-prepare_samples/instance-8ezuridv.
+[2020-12-30T14:45:36-0800] [MainThread] [W] [toil.leader] Job failed with exit value 1: 'prepare_samples' kind-prepare_samples/instance-8ezuridv
+[2020-12-30T14:45:36-0800] [MainThread] [W] [toil.leader] The job seems to have left a log file, indicating failure: 'prepare_samples' kind-prepare_samples/instance-8ezuridv
+[2020-12-30T14:45:36-0800] [MainThread] [W] [toil.leader] Log from job kind-prepare_samples/instance-8ezuridv follows:
+=========>
+	[2020-12-30T14:45:36-0800] [MainThread] [I] [toil.worker] ---TOIL WORKER OUTPUT LOG---
+	[2020-12-30T14:45:36-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+	[2020-12-30T14:45:36-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Downloading Inputs for CHR6
+	[2020-12-30T14:45:36-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Obtaining file (CHR6:normal_dna_fastq_1) to the file job store
+	Traceback (most recent call last):
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/worker.py", line 368, in workerScript
+	    job._runner(jobGraph=jobGraph, jobStore=jobStore, fileStore=fileStore, defer=defer)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1424, in _runner
+	    returnValues = self._run(jobGraph, fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1361, in _run
+	    return self.run(fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1565, in run
+	    rValue = userFunction(*((self,) + tuple(self._args)), **self._kwargs)
+	  File "/private/home/drkthomp/protect/src/protect/pipeline/ProTECT.py", line 847, in prepare_samples
+	    gdc_download_token=univ_options['gdc_download_token'])
+	  File "/private/home/drkthomp/protect/src/protect/pipeline/ProTECT.py", line 807, in get_pipeline_inputs
+	    assert os.path.exists(input_file), 'Bogus Input : ' + input_file
+	AssertionError: Bogus Input : /scratch/drkthomp/chry6_only/normal_chr6_1.fastq
+	[2020-12-30T14:45:36-0800] [MainThread] [E] [toil.worker] Exiting the worker because of a failed job on host mustard
+<=========
+[2020-12-30T14:45:36-0800] [MainThread] [W] [toil.jobGraph] Due to failure we are reducing the remaining retry count of job 'prepare_samples' kind-prepare_samples/instance-8ezuridv with ID kind-prepare_samples/instance-8ezuridv to 0
+[2020-12-30T14:45:36-0800] [MainThread] [W] [toil.leader] Job 'prepare_samples' kind-prepare_samples/instance-8ezuridv with ID kind-prepare_samples/instance-8ezuridv is completely failed
+[2020-12-30T14:45:44-0800] [MainThread] [I] [toil.leader] Finished toil run with 3 failed jobs.
+[2020-12-30T14:45:44-0800] [MainThread] [I] [toil.leader] Failed jobs at end of the run: 'get_all_tool_inputs' kind-parse_config_file/instance-4igno9c7 'prepare_samples' kind-prepare_samples/instance-8ezuridv 'launch_protect' kind-launch_protect/instance-avwwegzn
+Traceback (most recent call last):
+  File "/private/home/drkthomp/protect/venv/bin/ProTECT", line 11, in <module>
+    load_entry_point('protect', 'console_scripts', 'ProTECT')()
+  File "/private/home/drkthomp/protect/src/protect/pipeline/ProTECT.py", line 1028, in main
+    Job.Runner.startToil(start, params)
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 798, in startToil
+    return toil.restart()
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/common.py", line 878, in restart
+    return self._runMainLoop(rootJobGraph)
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/common.py", line 1138, in _runMainLoop
+    jobCache=self._jobCache).run()
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/leader.py", line 269, in run
+    raise FailedJobsException(self.config.jobStore, self.toilState.totalFailedJobs, self.jobStore)
+toil.leader.FailedJobsException: The job store 'file:/scratch/drkthomp/chr6jobStore' contains 3 failed jobs: 'get_all_tool_inputs' kind-parse_config_file/instance-4igno9c7, 'prepare_samples' kind-prepare_samples/instance-8ezuridv, 'launch_protect' kind-launch_protect/instance-avwwegzn
+Log from job 'prepare_samples' kind-prepare_samples/instance-8ezuridv follows:
+=========>
+	[2020-12-30T14:45:36-0800] [MainThread] [I] [toil.worker] ---TOIL WORKER OUTPUT LOG---
+	[2020-12-30T14:45:36-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+	[2020-12-30T14:45:36-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Downloading Inputs for CHR6
+	[2020-12-30T14:45:36-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Obtaining file (CHR6:normal_dna_fastq_1) to the file job store
+	Traceback (most recent call last):
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/worker.py", line 368, in workerScript
+	    job._runner(jobGraph=jobGraph, jobStore=jobStore, fileStore=fileStore, defer=defer)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1424, in _runner
+	    returnValues = self._run(jobGraph, fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1361, in _run
+	    return self.run(fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1565, in run
+	    rValue = userFunction(*((self,) + tuple(self._args)), **self._kwargs)
+	  File "/private/home/drkthomp/protect/src/protect/pipeline/ProTECT.py", line 847, in prepare_samples
+	    gdc_download_token=univ_options['gdc_download_token'])
+	  File "/private/home/drkthomp/protect/src/protect/pipeline/ProTECT.py", line 807, in get_pipeline_inputs
+	    assert os.path.exists(input_file), 'Bogus Input : ' + input_file
+	AssertionError: Bogus Input : /scratch/drkthomp/chry6_only/normal_chr6_1.fastq
+	[2020-12-30T14:45:36-0800] [MainThread] [E] [toil.worker] Exiting the worker because of a failed job on host mustard
+<=========

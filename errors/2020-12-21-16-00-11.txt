@@ -1,0 +1,25 @@
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-8n6ee0af
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-5avoh20i
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-y7kpeu18
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-f8d3majs
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-get_patient_vcf/instance-zeb9zu6_
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-d84dtur2
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-ek_bmbvh
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-c4r5b8hs
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-9xmstutw
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-get_patient_fastqs/instance-3g3_xeet
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-run_transgene/instance-rmwo1gu2
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-fihf81cr
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-vojrelfc
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-get_patient_fastqs/instance-pezrlznb
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-cp1s89q7
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-fml494e0
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-qiogdxrt
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-prepare_samples/instance-9t_j7xfw
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-v03_6ru4
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-get_patient_fastqs/instance-u65j7la1
+[2020-12-21T16:00:12-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-parse_config_file/instance-qnp30l8f
+[2020-12-21T16:00:12-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+[2020-12-21T16:00:12-0800] [MainThread] [I] [toil.leader] Issued job 'run_transgene' kind-run_transgene/instance-rmwo1gu2 with job batch system ID: 0 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-21T16:00:13-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c6dd6166-0e17-47a0-b05b-0af0433282a6-e8611b53-bdab-4598-acae-87977f99831e/tmp6o7aurw8/worker_log.txt
+[2020-12-21T16:00:14-0800] [MainThread] [I] [toil.leader] 1 jobs are running, 0 jobs are issued and waiting to run

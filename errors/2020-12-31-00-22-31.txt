@@ -1,0 +1,61 @@
+[2020-12-31T00:22:32-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-parse_config_file/instance-kil2wrlc
+[2020-12-31T00:22:32-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-prepare_samples/instance-hztzuaw3
+[2020-12-31T00:22:32-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+[2020-12-31T00:22:32-0800] [MainThread] [I] [toil.leader] Issued job 'prepare_samples' kind-prepare_samples/instance-hztzuaw3 with job batch system ID: 0 and cores: 1, disk: 40.0 G, and memory: 2.0 G
+[2020-12-31T00:22:32-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmp8etfig34/worker_log.txt
+[2020-12-31T00:22:33-0800] [Thread-1  ] [E] [toil.batchSystems.singleMachine] Got exit code 1 (indicating failure) from job _toil_worker prepare_samples file:/scratch/drkthomp/chr6jobStore kind-prepare_samples/instance-hztzuaw3.
+[2020-12-31T00:22:33-0800] [MainThread] [W] [toil.leader] Job failed with exit value 1: 'prepare_samples' kind-prepare_samples/instance-hztzuaw3
+[2020-12-31T00:22:33-0800] [MainThread] [W] [toil.leader] The job seems to have left a log file, indicating failure: 'prepare_samples' kind-prepare_samples/instance-hztzuaw3
+[2020-12-31T00:22:33-0800] [MainThread] [W] [toil.leader] Log from job kind-prepare_samples/instance-hztzuaw3 follows:
+=========>
+	[2020-12-31T00:22:32-0800] [MainThread] [I] [toil.worker] ---TOIL WORKER OUTPUT LOG---
+	[2020-12-31T00:22:32-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+	[2020-12-31T00:22:33-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Downloading Inputs for VARIANT
+	[2020-12-31T00:22:33-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Obtaining file (VARIANT:mutation_vcf) to the file job store
+	Traceback (most recent call last):
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/worker.py", line 368, in workerScript
+	    job._runner(jobGraph=jobGraph, jobStore=jobStore, fileStore=fileStore, defer=defer)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1424, in _runner
+	    returnValues = self._run(jobGraph, fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1361, in _run
+	    return self.run(fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1565, in run
+	    rValue = userFunction(*((self,) + tuple(self._args)), **self._kwargs)
+	  File "/private/home/drkthomp/protect/src/protect/pipeline/ProTECT.py", line 847, in prepare_samples
+	    gdc_download_token=univ_options['gdc_download_token'])
+	  File "/private/home/drkthomp/protect/src/protect/pipeline/ProTECT.py", line 807, in get_pipeline_inputs
+	    assert os.path.exists(input_file), 'Bogus Input : ' + input_file
+	AssertionError: Bogus Input : /scratch/drkthomp/results/CHR6/mutations/merged/ch6.vcf
+	[2020-12-31T00:22:33-0800] [MainThread] [E] [toil.worker] Exiting the worker because of a failed job on host mustard
+<=========
+[2020-12-31T00:22:33-0800] [MainThread] [W] [toil.jobGraph] Due to failure we are reducing the remaining retry count of job 'prepare_samples' kind-prepare_samples/instance-hztzuaw3 with ID kind-prepare_samples/instance-hztzuaw3 to 1
+[2020-12-31T00:22:33-0800] [MainThread] [I] [toil.leader] 0 jobs are running, 0 jobs are issued and waiting to run
+[2020-12-31T00:22:33-0800] [MainThread] [I] [toil.leader] Issued job 'prepare_samples' kind-prepare_samples/instance-hztzuaw3 with job batch system ID: 1 and cores: 1, disk: 40.0 G, and memory: 2.0 G
+[2020-12-31T00:22:33-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-311bf7be-5125-4c58-9c80-a60d09236c6a-e8611b53-bdab-4598-acae-87977f99831e/tmpe6bhwz1x/worker_log.txt
+[2020-12-31T00:22:34-0800] [Thread-1  ] [E] [toil.batchSystems.singleMachine] Got exit code 1 (indicating failure) from job _toil_worker prepare_samples file:/scratch/drkthomp/chr6jobStore kind-prepare_samples/instance-hztzuaw3.
+[2020-12-31T00:22:34-0800] [MainThread] [W] [toil.leader] Job failed with exit value 1: 'prepare_samples' kind-prepare_samples/instance-hztzuaw3
+[2020-12-31T00:22:34-0800] [MainThread] [W] [toil.leader] The job seems to have left a log file, indicating failure: 'prepare_samples' kind-prepare_samples/instance-hztzuaw3
+[2020-12-31T00:22:34-0800] [MainThread] [W] [toil.leader] Log from job kind-prepare_samples/instance-hztzuaw3 follows:
+=========>
+	[2020-12-31T00:22:33-0800] [MainThread] [I] [toil.worker] ---TOIL WORKER OUTPUT LOG---
+	[2020-12-31T00:22:33-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+	[2020-12-31T00:22:34-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Downloading Inputs for VARIANT
+	[2020-12-31T00:22:34-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Obtaining file (VARIANT:mutation_vcf) to the file job store
+	Traceback (most recent call last):
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/worker.py", line 368, in workerScript
+	    job._runner(jobGraph=jobGraph, jobStore=jobStore, fileStore=fileStore, defer=defer)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1424, in _runner
+	    returnValues = self._run(jobGraph, fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1361, in _run
+	    return self.run(fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1565, in run
+	    rValue = userFunction(*((self,) + tuple(self._args)), **self._kwargs)
+	  File "/private/home/drkthomp/protect/src/protect/pipeline/ProTECT.py", line 847, in prepare_samples
+	    gdc_download_token=univ_options['gdc_download_token'])
+	  File "/private/home/drkthomp/protect/src/protect/pipeline/ProTECT.py", line 807, in get_pipeline_inputs
+	    assert os.path.exists(input_file), 'Bogus Input : ' + input_file
+	AssertionError: Bogus Input : /scratch/drkthomp/results/CHR6/mutations/merged/ch6.vcf
+	[2020-12-31T00:22:34-0800] [MainThread] [E] [toil.worker] Exiting the worker because of a failed job on host mustard
+<=========
+[2020-12-31T00:22:34-0800] [MainThread] [W] [toil.jobGraph] Due to failure we are reducing the remaining retry count of job 'prepare_samples' kind-prepare_samples/instance-hztzuaw3 with ID kind-prepare_samples/instance-hztzuaw3 to 0
+[2020-12-31T00:22:34-0800] [MainThread] [W] [toil.leader] Job 'prepare_samples' kind-prepare_samples/instance-hztzuaw3 with ID kind-prepare_samples/instance-hztzuaw3 is completely failed

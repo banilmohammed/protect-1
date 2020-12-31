@@ -1,0 +1,44 @@
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-81yerkhz
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-kyjc461q
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-mdjzwkgs
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-mx8xnuxf
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-3b0ig83n
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-index_bamfile/instance-uqr270hi
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-o1wn5v_2
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-parse_config_file/instance-yzt_3sn0
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-run_bwa/instance-t8jlry_g
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-1wpl51ix
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-uiv48uus
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-index_bamfile/instance-c9jq4yfd
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-5bqknv1z
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-79v52nqj
+[2020-12-05T13:42:08-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-exrdmhwn
+[2020-12-05T13:42:08-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+[2020-12-05T13:42:08-0800] [MainThread] [I] [toil.leader] Issued job 'index_bamfile' kind-index_bamfile/instance-c9jq4yfd with job batch system ID: 0 and cores: 1, disk: 30.7 G, and memory: 12.0 G
+[2020-12-05T13:42:09-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-f6686f9d-cbd0-41d1-8aff-fcfb902a721a-e8611b53-bdab-4598-acae-87977f99831e/tmpjtlowg_6/worker_log.txt
+Traceback (most recent call last):
+  File "/private/home/drkthomp/protect/venv/bin/ProTECT", line 11, in <module>
+    load_entry_point('protect', 'console_scripts', 'ProTECT')()
+  File "/private/home/drkthomp/protect/src/protect/pipeline/ProTECT.py", line 1028, in main
+    Job.Runner.startToil(start, params)
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 798, in startToil
+    return toil.restart()
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/common.py", line 878, in restart
+    return self._runMainLoop(rootJobGraph)
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/common.py", line 1138, in _runMainLoop
+    jobCache=self._jobCache).run()
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/leader.py", line 235, in run
+    self.innerLoop()
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/leader.py", line 558, in innerLoop
+    self._processReadyJobs()
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/leader.py", line 482, in _processReadyJobs
+    self._processReadyJob(jobGraph, resultStatus)
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/leader.py", line 432, in _processReadyJob
+    self.issueJob(JobNode.fromJobGraph(jobGraph))
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/leader.py", line 676, in issueJob
+    jobBatchSystemID = self.batchSystem.issueBatchJob(jobNode)
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/batchSystems/singleMachine.py", line 498, in issueBatchJob
+    detail='Scale is set to {}.'.format(self.scale))
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/batchSystems/abstractBatchSystem.py", line 304, in checkResourceRequest
+    batchSystem=self.__class__.__name__, name=name, detail=detail)
+toil.batchSystems.abstractBatchSystem.InsufficientSystemResources: The job run_bwa is requesting 525102345041 bytes of disk, more than the maximum of 183902420992 bytes of disk that SingleMachineBatchSystem was configured with. Scale is set to 1.

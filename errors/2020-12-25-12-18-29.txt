@@ -1,0 +1,198 @@
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-9gwm9cev
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-3mgqcr5_
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-i9jsiigg
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-xwx4yl4k
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-index_bamfile/instance-xgcgcym8
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-ryb1mgp7
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-86yo3nyf
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-w9g5r8xj
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-merge_phlat_calls/instance-kpuwnzib
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-parse_config_file/instance-e11aswdy
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-_a3yyk2l
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-imhj6830
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-index_bamfile/instance-toqriccp
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-xtd4iw5s
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-ahayaz04
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-dhjzihpa
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-EncapsulatedJob/instance-k5k2_lzc
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-Job/instance-vynrt9wx
+[2020-12-25T12:18:38-0800] [MainThread] [C] [toil.jobStores.abstractJobStore] Repairing job: kind-run_star/instance-5qemzxx3
+[2020-12-25T12:18:38-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+[2020-12-25T12:18:39-0800] [MainThread] [I] [toil.leader] Issued job 'index_bamfile' kind-index_bamfile/instance-xgcgcym8 with job batch system ID: 0 and cores: 1, disk: 30.7 G, and memory: 12.0 G
+[2020-12-25T12:18:39-0800] [MainThread] [I] [toil.leader] Issued job 'index_bamfile' kind-index_bamfile/instance-toqriccp with job batch system ID: 1 and cores: 1, disk: 26.7 G, and memory: 12.0 G
+[2020-12-25T12:18:39-0800] [MainThread] [I] [toil.leader] Issued job 'merge_phlat_calls' kind-merge_phlat_calls/instance-kpuwnzib with job batch system ID: 2 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-25T12:18:39-0800] [MainThread] [I] [toil.leader] Issued job 'run_star' kind-run_star/instance-5qemzxx3 with job batch system ID: 3 and cores: 80, disk: 139.0 G, and memory: 48.6 G
+[2020-12-25T12:18:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-411afe9c-9629-45db-94fa-a3625b43a9d8-e8611b53-bdab-4598-acae-87977f99831e/tmpi7elvwyt/worker_log.txt
+[2020-12-25T12:18:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-411afe9c-9629-45db-94fa-a3625b43a9d8-e8611b53-bdab-4598-acae-87977f99831e/tmp90ih4oar/worker_log.txt
+[2020-12-25T12:18:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-411afe9c-9629-45db-94fa-a3625b43a9d8-e8611b53-bdab-4598-acae-87977f99831e/tmppccfmsx3/worker_log.txt
+[2020-12-25T12:18:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-411afe9c-9629-45db-94fa-a3625b43a9d8-e8611b53-bdab-4598-acae-87977f99831e/tmptack49gp/worker_log.txt
+[2020-12-25T12:18:40-0800] [MainThread] [I] [toil.leader] Job ended: 'merge_phlat_calls' kind-merge_phlat_calls/instance-kpuwnzib
+[2020-12-25T12:18:40-0800] [MainThread] [I] [toil.leader] 3 jobs are running, 0 jobs are issued and waiting to run
+[2020-12-25T12:18:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-25-2020 12:18:40: Merging Phlat calls
+[2020-12-25T12:18:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-25-2020 12:18:40: Exporting files/for-job/kind-merge_phlat_calls/instance-kpuwnzib/file-5_7ygv3n/mhci_alleles.list to output location
+[2020-12-25T12:18:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-25-2020 12:18:40: Exporting files/for-job/kind-merge_phlat_calls/instance-kpuwnzib/file-tx2200eb/mhcii_alleles.list to output location
+[2020-12-25T12:42:31-0800] [Thread-1  ] [E] [toil.batchSystems.singleMachine] Got exit code 1 (indicating failure) from job _toil_worker index_bamfile file:/scratch/drkthomp/jobStore kind-index_bamfile/instance-toqriccp.
+[2020-12-25T12:42:31-0800] [MainThread] [W] [toil.leader] Job failed with exit value 1: 'index_bamfile' kind-index_bamfile/instance-toqriccp
+[2020-12-25T12:42:31-0800] [MainThread] [W] [toil.leader] The job seems to have left a log file, indicating failure: 'index_bamfile' kind-index_bamfile/instance-toqriccp
+[2020-12-25T12:42:31-0800] [MainThread] [W] [toil.leader] Log from job kind-index_bamfile/instance-toqriccp follows:
+=========>
+	[2020-12-25T12:18:39-0800] [MainThread] [I] [toil.worker] ---TOIL WORKER OUTPUT LOG---
+	[2020-12-25T12:18:39-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+	[2020-12-25T12:24:43-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Exporting files/for-job/kind-mark_duplicates/instance-abbhyieh/file-fbvrd8n_/normal_dna_mkdup.bam to output location
+	[2020-12-25T12:42:31-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Exporting files/for-job/kind-index_bamfile/instance-toqriccp/file-7i502iyn/normal_dna_fix_pg_sorted.bam.bai to output location
+	Traceback (most recent call last):
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/worker.py", line 368, in workerScript
+	    job._runner(jobGraph=jobGraph, jobStore=jobStore, fileStore=fileStore, defer=defer)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1424, in _runner
+	    returnValues = self._run(jobGraph, fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1361, in _run
+	    return self.run(fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1565, in run
+	    rValue = userFunction(*((self,) + tuple(self._args)), **self._kwargs)
+	  File "/private/home/drkthomp/protect/src/protect/alignment/common.py", line 71, in index_bamfile
+	    subfolder='alignments')
+	  File "/private/home/drkthomp/protect/src/protect/common.py", line 455, in export_results
+	    job.fileStore.exportFile(fsid, output_url)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/fileStores/nonCachingFileStore.py", line 113, in exportFile
+	    self.jobStore.exportFile(jobStoreFileID, dstUrl)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/jobStores/abstractJobStore.py", line 350, in exportFile
+	    self._exportFile(otherCls, jobStoreFileID, dstUrl)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/jobStores/fileJobStore.py", line 303, in _exportFile
+	    atomic_copy(srcPath, destPath)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/lib/misc.py", line 225, in atomic_copy
+	    shutil.copyfile(src_path, dest_path_tmp)
+	  File "/private/home/drkthomp/protect/venv/lib64/python3.6/shutil.py", line 121, in copyfile
+	    with open(dst, 'wb') as fdst:
+	OSError: [Errno 122] Disk quota exceeded: '/private/home/drkthomp/results/TEST/alignments/normal_dna_fix_pg_sorted.bam.bai.619eea46-3701-44f4-a12e-9e92e2a36e95.tmp.bai'
+	[2020-12-25T12:42:31-0800] [MainThread] [E] [toil.worker] Exiting the worker because of a failed job on host mustard
+<=========
+[2020-12-25T12:42:31-0800] [MainThread] [W] [toil.jobGraph] Due to failure we are reducing the remaining retry count of job 'index_bamfile' kind-index_bamfile/instance-toqriccp with ID kind-index_bamfile/instance-toqriccp to 1
+[2020-12-25T12:42:31-0800] [MainThread] [I] [toil.leader] Issued job 'index_bamfile' kind-index_bamfile/instance-toqriccp with job batch system ID: 4 and cores: 1, disk: 26.7 G, and memory: 12.0 G
+[2020-12-25T12:42:33-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-411afe9c-9629-45db-94fa-a3625b43a9d8-e8611b53-bdab-4598-acae-87977f99831e/tmp3_5zj3j_/worker_log.txt
+[2020-12-25T12:42:38-0800] [Thread-1  ] [E] [toil.batchSystems.singleMachine] Got exit code 1 (indicating failure) from job _toil_worker index_bamfile file:/scratch/drkthomp/jobStore kind-index_bamfile/instance-xgcgcym8.
+[2020-12-25T12:42:38-0800] [MainThread] [W] [toil.leader] Job failed with exit value 1: 'index_bamfile' kind-index_bamfile/instance-xgcgcym8
+[2020-12-25T12:42:38-0800] [MainThread] [W] [toil.leader] The job seems to have left a log file, indicating failure: 'index_bamfile' kind-index_bamfile/instance-xgcgcym8
+[2020-12-25T12:42:38-0800] [MainThread] [W] [toil.leader] Log from job kind-index_bamfile/instance-xgcgcym8 follows:
+=========>
+	[2020-12-25T12:18:39-0800] [MainThread] [I] [toil.worker] ---TOIL WORKER OUTPUT LOG---
+	[2020-12-25T12:18:39-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+	[2020-12-25T12:25:00-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Exporting files/for-job/kind-mark_duplicates/instance-pov4sexi/file-ng0xmrsz/tumor_dna_mkdup.bam to output location
+	Traceback (most recent call last):
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/worker.py", line 368, in workerScript
+	    job._runner(jobGraph=jobGraph, jobStore=jobStore, fileStore=fileStore, defer=defer)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1424, in _runner
+	    returnValues = self._run(jobGraph, fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1361, in _run
+	    return self.run(fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1565, in run
+	    rValue = userFunction(*((self,) + tuple(self._args)), **self._kwargs)
+	  File "/private/home/drkthomp/protect/src/protect/alignment/common.py", line 69, in index_bamfile
+	    subfolder='alignments')
+	  File "/private/home/drkthomp/protect/src/protect/common.py", line 455, in export_results
+	    job.fileStore.exportFile(fsid, output_url)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/fileStores/nonCachingFileStore.py", line 113, in exportFile
+	    self.jobStore.exportFile(jobStoreFileID, dstUrl)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/jobStores/abstractJobStore.py", line 350, in exportFile
+	    self._exportFile(otherCls, jobStoreFileID, dstUrl)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/jobStores/fileJobStore.py", line 303, in _exportFile
+	    atomic_copy(srcPath, destPath)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/lib/misc.py", line 225, in atomic_copy
+	    shutil.copyfile(src_path, dest_path_tmp)
+	  File "/private/home/drkthomp/protect/venv/lib64/python3.6/shutil.py", line 122, in copyfile
+	    copyfileobj(fsrc, fdst)
+	OSError: [Errno 122] Disk quota exceeded
+	[2020-12-25T12:42:38-0800] [MainThread] [E] [toil.worker] Exiting the worker because of a failed job on host mustard
+<=========
+[2020-12-25T12:42:38-0800] [MainThread] [W] [toil.jobGraph] Due to failure we are reducing the remaining retry count of job 'index_bamfile' kind-index_bamfile/instance-xgcgcym8 with ID kind-index_bamfile/instance-xgcgcym8 to 1
+[2020-12-25T12:42:38-0800] [MainThread] [I] [toil.leader] Issued job 'index_bamfile' kind-index_bamfile/instance-xgcgcym8 with job batch system ID: 5 and cores: 1, disk: 30.7 G, and memory: 12.0 G
+[2020-12-25T12:42:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-411afe9c-9629-45db-94fa-a3625b43a9d8-e8611b53-bdab-4598-acae-87977f99831e/tmpo066j80y/worker_log.txt
+[2020-12-25T12:50:13-0800] [Thread-1  ] [E] [toil.batchSystems.singleMachine] Got exit code 1 (indicating failure) from job _toil_worker index_bamfile file:/scratch/drkthomp/jobStore kind-index_bamfile/instance-toqriccp.
+[2020-12-25T12:50:13-0800] [MainThread] [W] [toil.leader] Job failed with exit value 1: 'index_bamfile' kind-index_bamfile/instance-toqriccp
+[2020-12-25T12:50:13-0800] [MainThread] [W] [toil.leader] The job seems to have left a log file, indicating failure: 'index_bamfile' kind-index_bamfile/instance-toqriccp
+[2020-12-25T12:50:13-0800] [MainThread] [W] [toil.leader] Log from job kind-index_bamfile/instance-toqriccp follows:
+=========>
+	[2020-12-25T12:42:33-0800] [MainThread] [I] [toil.worker] ---TOIL WORKER OUTPUT LOG---
+	[2020-12-25T12:42:33-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+	[2020-12-25T12:49:01-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Exporting files/for-job/kind-mark_duplicates/instance-abbhyieh/file-fbvrd8n_/normal_dna_mkdup.bam to output location
+	Traceback (most recent call last):
+	  File "/private/home/drkthomp/protect/venv/lib64/python3.6/shutil.py", line 122, in copyfile
+	    copyfileobj(fsrc, fdst)
+	  File "/private/home/drkthomp/protect/venv/lib64/python3.6/shutil.py", line 82, in copyfileobj
+	    fdst.write(buf)
+	OSError: [Errno 122] Disk quota exceeded
+	
+	During handling of the above exception, another exception occurred:
+	
+	Traceback (most recent call last):
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/worker.py", line 368, in workerScript
+	    job._runner(jobGraph=jobGraph, jobStore=jobStore, fileStore=fileStore, defer=defer)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1424, in _runner
+	    returnValues = self._run(jobGraph, fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1361, in _run
+	    return self.run(fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1565, in run
+	    rValue = userFunction(*((self,) + tuple(self._args)), **self._kwargs)
+	  File "/private/home/drkthomp/protect/src/protect/alignment/common.py", line 69, in index_bamfile
+	    subfolder='alignments')
+	  File "/private/home/drkthomp/protect/src/protect/common.py", line 455, in export_results
+	    job.fileStore.exportFile(fsid, output_url)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/fileStores/nonCachingFileStore.py", line 113, in exportFile
+	    self.jobStore.exportFile(jobStoreFileID, dstUrl)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/jobStores/abstractJobStore.py", line 350, in exportFile
+	    self._exportFile(otherCls, jobStoreFileID, dstUrl)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/jobStores/fileJobStore.py", line 303, in _exportFile
+	    atomic_copy(srcPath, destPath)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/lib/misc.py", line 225, in atomic_copy
+	    shutil.copyfile(src_path, dest_path_tmp)
+	  File "/private/home/drkthomp/protect/venv/lib64/python3.6/shutil.py", line 122, in copyfile
+	    copyfileobj(fsrc, fdst)
+	OSError: [Errno 122] Disk quota exceeded
+	[2020-12-25T12:50:13-0800] [MainThread] [E] [toil.worker] Exiting the worker because of a failed job on host mustard
+<=========
+[2020-12-25T12:50:13-0800] [MainThread] [W] [toil.jobGraph] Due to failure we are reducing the remaining retry count of job 'index_bamfile' kind-index_bamfile/instance-toqriccp with ID kind-index_bamfile/instance-toqriccp to 0
+[2020-12-25T12:50:13-0800] [MainThread] [W] [toil.leader] Job 'index_bamfile' kind-index_bamfile/instance-toqriccp with ID kind-index_bamfile/instance-toqriccp is completely failed
+[2020-12-25T12:50:59-0800] [Thread-1  ] [E] [toil.batchSystems.singleMachine] Got exit code 1 (indicating failure) from job _toil_worker index_bamfile file:/scratch/drkthomp/jobStore kind-index_bamfile/instance-xgcgcym8.
+[2020-12-25T12:50:59-0800] [MainThread] [W] [toil.leader] Job failed with exit value 1: 'index_bamfile' kind-index_bamfile/instance-xgcgcym8
+[2020-12-25T12:50:59-0800] [MainThread] [W] [toil.leader] The job seems to have left a log file, indicating failure: 'index_bamfile' kind-index_bamfile/instance-xgcgcym8
+[2020-12-25T12:50:59-0800] [MainThread] [W] [toil.leader] Log from job kind-index_bamfile/instance-xgcgcym8 follows:
+=========>
+	[2020-12-25T12:42:39-0800] [MainThread] [I] [toil.worker] ---TOIL WORKER OUTPUT LOG---
+	[2020-12-25T12:42:39-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+	[2020-12-25T12:49:38-0800] [MainThread] [I] [toil.fileStores.abstractFileStore] LOG-TO-MASTER: Exporting files/for-job/kind-mark_duplicates/instance-pov4sexi/file-ng0xmrsz/tumor_dna_mkdup.bam to output location
+	Traceback (most recent call last):
+	  File "/private/home/drkthomp/protect/venv/lib64/python3.6/shutil.py", line 122, in copyfile
+	    copyfileobj(fsrc, fdst)
+	  File "/private/home/drkthomp/protect/venv/lib64/python3.6/shutil.py", line 82, in copyfileobj
+	    fdst.write(buf)
+	OSError: [Errno 122] Disk quota exceeded
+	
+	During handling of the above exception, another exception occurred:
+	
+	Traceback (most recent call last):
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/worker.py", line 368, in workerScript
+	    job._runner(jobGraph=jobGraph, jobStore=jobStore, fileStore=fileStore, defer=defer)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1424, in _runner
+	    returnValues = self._run(jobGraph, fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1361, in _run
+	    return self.run(fileStore)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 1565, in run
+	    rValue = userFunction(*((self,) + tuple(self._args)), **self._kwargs)
+	  File "/private/home/drkthomp/protect/src/protect/alignment/common.py", line 69, in index_bamfile
+	    subfolder='alignments')
+	  File "/private/home/drkthomp/protect/src/protect/common.py", line 455, in export_results
+	    job.fileStore.exportFile(fsid, output_url)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/fileStores/nonCachingFileStore.py", line 113, in exportFile
+	    self.jobStore.exportFile(jobStoreFileID, dstUrl)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/jobStores/abstractJobStore.py", line 350, in exportFile
+	    self._exportFile(otherCls, jobStoreFileID, dstUrl)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/jobStores/fileJobStore.py", line 303, in _exportFile
+	    atomic_copy(srcPath, destPath)
+	  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/lib/misc.py", line 225, in atomic_copy
+	    shutil.copyfile(src_path, dest_path_tmp)
+	  File "/private/home/drkthomp/protect/venv/lib64/python3.6/shutil.py", line 122, in copyfile
+	    copyfileobj(fsrc, fdst)
+	OSError: [Errno 122] Disk quota exceeded
+	[2020-12-25T12:50:59-0800] [MainThread] [E] [toil.worker] Exiting the worker because of a failed job on host mustard
+<=========
+[2020-12-25T12:50:59-0800] [MainThread] [W] [toil.jobGraph] Due to failure we are reducing the remaining retry count of job 'index_bamfile' kind-index_bamfile/instance-xgcgcym8 with ID kind-index_bamfile/instance-xgcgcym8 to 0
+[2020-12-25T12:50:59-0800] [MainThread] [W] [toil.leader] Job 'index_bamfile' kind-index_bamfile/instance-xgcgcym8 with ID kind-index_bamfile/instance-xgcgcym8 is completely failed

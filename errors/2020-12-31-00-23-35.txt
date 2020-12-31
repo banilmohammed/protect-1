@@ -1,0 +1,505 @@
+[2020-12-31T00:23:37-0800] [MainThread] [I] [toil] Running Toil version 4.2.0-3aa1da130141039cb357efe36d7df9b9f6ae9b5b on host mustard.
+[2020-12-31T00:23:37-0800] [MainThread] [I] [toil.leader] Issued job 'parse_config_file' kind-parse_config_file/instance-2asyb97d with job batch system ID: 0 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:37-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpbelu_ub8/worker_log.txt
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Job ended: 'parse_config_file' kind-parse_config_file/instance-2asyb97d
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] 0 jobs are running, 0 jobs are issued and waiting to run
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-ihiogm_q with job batch system ID: 1 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-rt103li6 with job batch system ID: 2 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-qb08v78w with job batch system ID: 3 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-ikx5yzr3 with job batch system ID: 4 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-eua5bmda with job batch system ID: 5 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-oqvfq5t1 with job batch system ID: 6 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-8ggnxtis with job batch system ID: 7 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-nsad0s9y with job batch system ID: 8 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-epcs070l with job batch system ID: 9 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-96u9zf69 with job batch system ID: 10 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-d3ebx8qp with job batch system ID: 11 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-afj88lw1 with job batch system ID: 12 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-awmfxayt with job batch system ID: 13 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-xjmboug6 with job batch system ID: 14 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-1b47c1yy with job batch system ID: 15 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-c8l8spd0 with job batch system ID: 16 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-azb47j8t with job batch system ID: 17 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-csauqyt3 with job batch system ID: 18 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-6hmw37bh with job batch system ID: 19 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-es68kl2_ with job batch system ID: 20 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-ehivhd87 with job batch system ID: 21 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-9qbs1192 with job batch system ID: 22 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-treh7w7_ with job batch system ID: 23 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-1jp2bs8i with job batch system ID: 24 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-7oe0yc51 with job batch system ID: 25 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-s5pcawny with job batch system ID: 26 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-p2mnkojf with job batch system ID: 27 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-ynzegdhg with job batch system ID: 28 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-e1yzskq5 with job batch system ID: 29 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:23:38-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:38: Parsing config file
+[2020-12-31T00:23:38-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:38: Obtaining tool inputs
+[2020-12-31T00:23:38-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:38: Obtained tool inputs
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmprufny75c/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpven2nug0/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp_9m9d12b/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpsm0jdwsm/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpjigqgh0k/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpwhnmvkcx/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp5t1kxax2/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpm5osdfxb/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpbwwjnmut/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp7vg9p79f/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpcy1eoqh0/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp432hz6ya/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpjqs_gd8e/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmplnygc1yb/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp40r496a1/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmptjnuzie1/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpli5m0kmj/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpgxiogq7f/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp8mb64ywf/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpozier4br/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpsvow3pmj/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmplkadna2s/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpecokp1qr/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpsx1r_bcw/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp8c985_ak/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmphc7b9v3l/worker_log.txt
+[2020-12-31T00:23:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpwofe39hm/worker_log.txt
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpe8mqhj0v/worker_log.txt
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp8egtd4ma/worker_log.txt
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-96u9zf69
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-c8l8spd0
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-oqvfq5t1
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-nsad0s9y
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-d3ebx8qp
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-eua5bmda
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-s5pcawny
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-p2mnkojf
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-ynzegdhg
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (indexes:dbsnp_idx) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (indexes:genome_dict) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (radia:gencode_beds) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (indexes:dbsnp_tbi) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (indexes:cosmic_idx) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (indexes:genome_fai) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (reports:mhc_pathways_file) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (strelka:config_file) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (mhci:method_file) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (reports:itx_resistance_file) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (reports:immune_resistance_pathways_file) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (reports:car_t_targets_file) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (radia:cosmic_beds) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (radia:pseudogene_beds) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (radia:retrogene_beds) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (transgene:gencode_peptide_fasta) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (transgene:gencode_transcript_fasta) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (mhcii:method_file) to the file job store
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-azb47j8t
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (transgene:gencode_annotation_gtf) to the file job store
+[2020-12-31T00:23:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:40: Obtaining file (indexes:cosmic_vcf) to the file job store
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-afj88lw1
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-xjmboug6
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-1jp2bs8i
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-e1yzskq5
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-1b47c1yy
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-6hmw37bh
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-ehivhd87
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-8ggnxtis
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-es68kl2_
+[2020-12-31T00:23:40-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-7oe0yc51
+[2020-12-31T00:23:41-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:41: Obtaining file (indexes:genome_fasta) to the file job store
+[2020-12-31T00:23:41-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:41: Obtaining file (transgene:genome_fasta) to the file job store
+[2020-12-31T00:23:41-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-ikx5yzr3
+[2020-12-31T00:23:41-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-9qbs1192
+[2020-12-31T00:23:41-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-awmfxayt
+[2020-12-31T00:23:42-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-csauqyt3
+[2020-12-31T00:23:42-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-qb08v78w
+[2020-12-31T00:23:42-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:42: Obtaining file (radia:dbsnp_beds) to the file job store
+[2020-12-31T00:23:42-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:42: Obtaining file (rsem:index) to the file job store
+[2020-12-31T00:23:42-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:42: Obtaining file (snpeff:index) to the file job store
+[2020-12-31T00:23:43-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:43: Obtaining file (indexes:dbsnp_vcf) to the file job store
+[2020-12-31T00:23:43-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-epcs070l
+[2020-12-31T00:23:44-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:44: Obtaining file (bwa:index) to the file job store
+[2020-12-31T00:23:44-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-rt103li6
+[2020-12-31T00:23:45-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-treh7w7_
+[2020-12-31T00:23:45-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:23:45: Obtaining file (phlat:index) to the file job store
+[2020-12-31T00:25:07-0800] [MainThread] [I] [toil.leader] Job ended: 'get_pipeline_inputs' kind-get_pipeline_inputs/instance-ihiogm_q
+[2020-12-31T00:25:07-0800] [MainThread] [I] [toil.leader] Issued job 'launch_protect' kind-launch_protect/instance-sns38iz9 with job batch system ID: 30 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:25:07-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:25:07: Obtaining file (star:index) to the file job store
+[2020-12-31T00:25:08-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp417zryw6/worker_log.txt
+[2020-12-31T00:25:09-0800] [MainThread] [I] [toil.leader] Job ended: 'launch_protect' kind-launch_protect/instance-sns38iz9
+[2020-12-31T00:25:09-0800] [MainThread] [I] [toil.leader] Issued job 'prepare_samples' kind-prepare_samples/instance-g585eeji with job batch system ID: 31 and cores: 1, disk: 40.0 G, and memory: 2.0 G
+[2020-12-31T00:25:09-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpszi3t7zi/worker_log.txt
+[2020-12-31T00:25:14-0800] [MainThread] [I] [toil.leader] Job ended: 'prepare_samples' kind-prepare_samples/instance-g585eeji
+[2020-12-31T00:25:14-0800] [MainThread] [I] [toil.leader] Issued job 'get_patient_fastqs' kind-get_patient_fastqs/instance-08_hj0_8 with job batch system ID: 32 and cores: 1, disk: 10.0 M, and memory: 2.0 G
+[2020-12-31T00:25:14-0800] [MainThread] [I] [toil.leader] Issued job 'get_patient_mhc_haplotype' kind-get_patient_mhc_haplotype/instance-xopd2pjg with job batch system ID: 33 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:25:14-0800] [MainThread] [I] [toil.leader] Issued job 'get_patient_vcf' kind-get_patient_vcf/instance-eahcihi0 with job batch system ID: 34 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T00:25:14-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:25:14: Downloading Inputs for VARIANT
+[2020-12-31T00:25:14-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:25:14: Obtaining file (VARIANT:tumor_rna_fastq_1) to the file job store
+[2020-12-31T00:25:14-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:25:14: Obtaining file (VARIANT:tumor_rna_fastq_2) to the file job store
+[2020-12-31T00:25:14-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:25:14: Obtaining file (VARIANT:hla_haplotype_files) to the file job store
+[2020-12-31T00:25:14-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:25:14: Obtaining file (VARIANT:mutation_vcf) to the file job store
+[2020-12-31T00:25:15-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp5m05jw3p/worker_log.txt
+[2020-12-31T00:25:15-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp6nf41z1l/worker_log.txt
+[2020-12-31T00:25:15-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpralpjqo5/worker_log.txt
+[2020-12-31T00:25:16-0800] [MainThread] [I] [toil.leader] Job ended: 'get_patient_vcf' kind-get_patient_vcf/instance-eahcihi0
+[2020-12-31T00:25:16-0800] [MainThread] [I] [toil.leader] Issued job 'run_snpeff' kind-run_snpeff/instance-sbc1eon8 with job batch system ID: 35 and cores: 1, disk: 6.0 G, and memory: 2.0 G
+[2020-12-31T00:25:16-0800] [MainThread] [I] [toil.leader] Job ended: 'get_patient_mhc_haplotype' kind-get_patient_mhc_haplotype/instance-xopd2pjg
+[2020-12-31T00:25:16-0800] [MainThread] [I] [toil.leader] Job ended: 'get_patient_fastqs' kind-get_patient_fastqs/instance-08_hj0_8
+[2020-12-31T00:25:16-0800] [MainThread] [I] [toil.leader] Issued job 'EncapsulatedJob' kind-EncapsulatedJob/instance-rfp85kfh with job batch system ID: 36 and cores: 0, disk: 1.0 M, and memory: 32.0 M
+[2020-12-31T00:25:16-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpxhr18mul/worker_log.txt
+[2020-12-31T00:25:16-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpz8_u82_f/worker_log.txt
+[2020-12-31T00:25:17-0800] [MainThread] [I] [toil.leader] Job ended: 'EncapsulatedJob' kind-EncapsulatedJob/instance-rfp85kfh
+[2020-12-31T00:25:17-0800] [MainThread] [I] [toil.leader] Issued job 'run_cutadapt' kind-run_cutadapt/instance-vmuwo5gz with job batch system ID: 37 and cores: 1, disk: 9.3 G, and memory: 2.0 G
+[2020-12-31T00:25:17-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp7vicv3rz/worker_log.txt
+[2020-12-31T00:26:57-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:26:57: Exporting files/for-job/kind-run_snpeff/instance-sbc1eon8/file-lmvwait3/mutations.vcf to output location
+[2020-12-31T00:26:57-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:26:57: Ran snpeff on VARIANT successfully
+[2020-12-31T00:26:57-0800] [MainThread] [I] [toil.leader] Job ended: 'run_snpeff' kind-run_snpeff/instance-sbc1eon8
+[2020-12-31T00:26:57-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-kpjk23nd with job batch system ID: 38 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T00:26:58-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpp0d287ia/worker_log.txt
+[2020-12-31T00:26:58-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-kpjk23nd
+[2020-12-31T00:29:00-0800] [MainThread] [I] [toil.leader] Job ended: 'run_cutadapt' kind-run_cutadapt/instance-vmuwo5gz
+[2020-12-31T00:29:00-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-ih_8m8c4 with job batch system ID: 39 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T00:29:01-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 00:29:01: Ran cutadapt on VARIANT successfully
+[2020-12-31T00:29:01-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp247ynr0y/worker_log.txt
+[2020-12-31T00:29:01-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-ih_8m8c4
+[2020-12-31T00:29:01-0800] [MainThread] [I] [toil.leader] Issued job 'EncapsulatedJob' kind-EncapsulatedJob/instance-ntaxesva with job batch system ID: 40 and cores: 1, disk: 100.0 M, and memory: 2.0 G
+[2020-12-31T00:29:02-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp0_w79jx3/worker_log.txt
+[2020-12-31T00:29:02-0800] [MainThread] [I] [toil.leader] Job ended: 'EncapsulatedJob' kind-EncapsulatedJob/instance-ntaxesva
+[2020-12-31T00:29:02-0800] [MainThread] [I] [toil.leader] Issued job 'run_star' kind-run_star/instance-ob7ggmyv with job batch system ID: 41 and cores: 80, disk: 56.3 G, and memory: 48.6 G
+[2020-12-31T00:29:03-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpml9s0g5k/worker_log.txt
+[2020-12-31T01:23:39-0800] [MainThread] [I] [toil.leader] 1 jobs are running, 0 jobs are issued and waiting to run
+[2020-12-31T02:23:39-0800] [MainThread] [I] [toil.leader] 1 jobs are running, 0 jobs are issued and waiting to run
+[2020-12-31T02:50:01-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 02:50:01: Exporting files/for-job/kind-run_star/instance-ob7ggmyv/file-a7rji56v/rnaAligned.toTranscriptome.out.bam to output location
+[2020-12-31T02:50:01-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 02:50:01: Exporting files/for-job/kind-run_star/instance-ob7ggmyv/file-uc0po_q4/rnaChimeric.out.junction to output location
+[2020-12-31T02:50:01-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 02:50:01: Ran STAR on VARIANT successfully
+[2020-12-31T02:50:01-0800] [Thread-3  ] [W] [toil.statsAndLogging] Got message from job at time 12-31-2020 02:50:01: Job used more disk than requested. Consider modifying the user script to avoid the chance of failure due to incorrectly requested resources. Job files/for-job/kind-EncapsulatedJob/instance-ntaxesva/cleanup/file-se66fl99/stream used 111.63% (62.9 GB [67528695808B] used, 56.3 GB [60493535347B] requested) at the end of its run.
+[2020-12-31T02:50:09-0800] [MainThread] [I] [toil.leader] Job ended: 'run_star' kind-run_star/instance-ob7ggmyv
+[2020-12-31T02:50:09-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-neh43df_ with job batch system ID: 42 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T02:50:10-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpw476avo5/worker_log.txt
+[2020-12-31T02:50:10-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-neh43df_
+[2020-12-31T02:50:10-0800] [MainThread] [I] [toil.leader] Issued job 'EncapsulatedJob' kind-EncapsulatedJob/instance-eea2u7jc with job batch system ID: 43 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T02:50:10-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp0939asq7/worker_log.txt
+[2020-12-31T02:50:10-0800] [MainThread] [I] [toil.leader] Job ended: 'EncapsulatedJob' kind-EncapsulatedJob/instance-eea2u7jc
+[2020-12-31T02:50:10-0800] [MainThread] [I] [toil.leader] Issued job 'sort_bamfile' kind-sort_bamfile/instance-lk6uh6ms with job batch system ID: 44 and cores: 1, disk: 3.0 G, and memory: 2.0 G
+[2020-12-31T02:50:11-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpgbtwr_hg/worker_log.txt
+[2020-12-31T02:51:11-0800] [MainThread] [I] [toil.leader] Job ended: 'sort_bamfile' kind-sort_bamfile/instance-lk6uh6ms
+[2020-12-31T02:51:11-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-1mzhfs94 with job batch system ID: 45 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T02:51:11-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 02:51:11: Ran samtools-sort on VARIANT:rna successfully
+[2020-12-31T02:51:12-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpctm6po8u/worker_log.txt
+[2020-12-31T02:51:12-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-1mzhfs94
+[2020-12-31T02:51:12-0800] [MainThread] [I] [toil.leader] Issued job 'index_bamfile' kind-index_bamfile/instance-92jx08i4 with job batch system ID: 46 and cores: 1, disk: 1.1 G, and memory: 2.0 G
+[2020-12-31T02:51:12-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpw6rhhue4/worker_log.txt
+[2020-12-31T02:51:30-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 02:51:30: Exporting files/for-job/kind-sort_bamfile/instance-lk6uh6ms/file-mwn2wxad/rna_sorted.bam to output location
+[2020-12-31T02:51:30-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 02:51:30: Exporting files/for-job/kind-index_bamfile/instance-92jx08i4/file-bs2nep60/rna_genome_sorted.bam.bai to output location
+[2020-12-31T02:51:30-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 02:51:30: Ran samtools-index on VARIANT:rna successfully
+[2020-12-31T02:51:30-0800] [MainThread] [I] [toil.leader] Job ended: 'index_bamfile' kind-index_bamfile/instance-92jx08i4
+[2020-12-31T02:51:30-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-1z12qwaw with job batch system ID: 47 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T02:51:30-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpc6h06h0y/worker_log.txt
+[2020-12-31T02:51:30-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-1z12qwaw
+[2020-12-31T02:51:30-0800] [MainThread] [I] [toil.leader] Issued job 'index_bamfile' kind-Job/instance-1mzhfs94 with job batch system ID: 48 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T02:51:31-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpgcxsukay/worker_log.txt
+[2020-12-31T02:51:31-0800] [MainThread] [I] [toil.leader] Job ended: 'index_bamfile' kind-Job/instance-1mzhfs94
+[2020-12-31T02:51:31-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-x0k8yowg with job batch system ID: 49 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T02:51:32-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp6igsvat0/worker_log.txt
+[2020-12-31T02:51:32-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-x0k8yowg
+[2020-12-31T02:51:32-0800] [MainThread] [I] [toil.leader] Issued job 'sort_bamfile' kind-EncapsulatedJob/instance-eea2u7jc with job batch system ID: 50 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T02:51:32-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpi_qi873f/worker_log.txt
+[2020-12-31T02:51:32-0800] [MainThread] [I] [toil.leader] Job ended: 'sort_bamfile' kind-EncapsulatedJob/instance-eea2u7jc
+[2020-12-31T02:51:32-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-neh43df_ with job batch system ID: 51 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T02:51:33-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpd5ly1wrk/worker_log.txt
+[2020-12-31T02:51:33-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-neh43df_
+[2020-12-31T02:51:33-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-mmpyyo3n with job batch system ID: 52 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T02:51:33-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpdkzwnbu5/worker_log.txt
+[2020-12-31T02:51:34-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-mmpyyo3n
+[2020-12-31T02:51:34-0800] [MainThread] [I] [toil.leader] Issued job 'EncapsulatedJob' kind-EncapsulatedJob/instance-t_lc1qp9 with job batch system ID: 53 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T02:51:34-0800] [MainThread] [I] [toil.leader] Issued job 'EncapsulatedJob' kind-EncapsulatedJob/instance-04_wb8gz with job batch system ID: 54 and cores: 1, disk: 100.0 M, and memory: 2.0 G
+[2020-12-31T02:51:34-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpmkmahq0h/worker_log.txt
+[2020-12-31T02:51:34-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpgqmg2ue5/worker_log.txt
+[2020-12-31T02:51:34-0800] [MainThread] [I] [toil.leader] Job ended: 'EncapsulatedJob' kind-EncapsulatedJob/instance-04_wb8gz
+[2020-12-31T02:51:34-0800] [MainThread] [I] [toil.leader] Issued job 'run_rsem' kind-run_rsem/instance-z8pp2yi5 with job batch system ID: 55 and cores: 80, disk: 7.7 G, and memory: 2.0 G
+[2020-12-31T02:51:35-0800] [MainThread] [I] [toil.leader] Job ended: 'EncapsulatedJob' kind-EncapsulatedJob/instance-t_lc1qp9
+[2020-12-31T02:51:35-0800] [MainThread] [I] [toil.leader] Issued job 'run_fusion' kind-run_fusion/instance-pu5g78qx with job batch system ID: 56 and cores: 80, disk: 55.6 G, and memory: 48.6 G
+[2020-12-31T02:51:35-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpb0l8ipgj/worker_log.txt
+[2020-12-31T02:51:35-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpthsb9fy5/worker_log.txt
+[2020-12-31T03:01:51-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 03:01:51: Exporting files/for-job/kind-run_rsem/instance-z8pp2yi5/file-ovx_u8qr/rsem.genes.results to output location
+[2020-12-31T03:01:51-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 03:01:51: Exporting files/for-job/kind-run_rsem/instance-z8pp2yi5/file-73vp5cvq/rsem.isoforms.results to output location
+[2020-12-31T03:01:51-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 03:01:51: Ran rsem on VARIANT successfully
+[2020-12-31T03:01:52-0800] [MainThread] [I] [toil.leader] Job ended: 'run_rsem' kind-run_rsem/instance-z8pp2yi5
+[2020-12-31T03:01:52-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-exbcu7sj with job batch system ID: 57 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T03:01:52-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpvrs50jph/worker_log.txt
+[2020-12-31T03:01:53-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-exbcu7sj
+[2020-12-31T03:01:53-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-6v5gz15g with job batch system ID: 58 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T03:01:53-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpmj9rano5/worker_log.txt
+[2020-12-31T03:01:53-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-6v5gz15g
+[2020-12-31T03:01:53-0800] [MainThread] [I] [toil.leader] Issued job 'run_mhc_gene_assessment' kind-run_mhc_gene_assessment/instance-qjjo1iyx with job batch system ID: 59 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T03:01:53-0800] [MainThread] [I] [toil.leader] Issued job 'run_itx_resistance_assessment' kind-run_itx_resistance_assessment/instance-alttflcz with job batch system ID: 60 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T03:01:53-0800] [MainThread] [I] [toil.leader] Issued job 'run_car_t_validity_assessment' kind-run_car_t_validity_assessment/instance-rhvyx_ix with job batch system ID: 61 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T03:01:54-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpyxzx0_7x/worker_log.txt
+[2020-12-31T03:01:54-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpuiq3ny89/worker_log.txt
+[2020-12-31T03:01:54-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp3v3lukwi/worker_log.txt
+[2020-12-31T03:01:54-0800] [MainThread] [I] [toil.leader] Job ended: 'run_mhc_gene_assessment' kind-run_mhc_gene_assessment/instance-qjjo1iyx
+[2020-12-31T03:01:54-0800] [MainThread] [I] [toil.leader] Issued job 'assess_mhc_genes' kind-assess_mhc_genes/instance-juzzj2am with job batch system ID: 62 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T03:01:54-0800] [MainThread] [I] [toil.leader] Job ended: 'run_itx_resistance_assessment' kind-run_itx_resistance_assessment/instance-alttflcz
+[2020-12-31T03:01:54-0800] [MainThread] [I] [toil.leader] Issued job 'assess_itx_resistance' kind-assess_itx_resistance/instance-dxw_z467 with job batch system ID: 63 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T03:01:54-0800] [MainThread] [I] [toil.leader] Job ended: 'run_car_t_validity_assessment' kind-run_car_t_validity_assessment/instance-rhvyx_ix
+[2020-12-31T03:01:54-0800] [MainThread] [I] [toil.leader] Issued job 'assess_car_t_validity' kind-assess_car_t_validity/instance-2tqg8o0y with job batch system ID: 64 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T03:01:55-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp_oeg361t/worker_log.txt
+[2020-12-31T03:01:55-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmph7_awr4b/worker_log.txt
+[2020-12-31T03:01:55-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp3hf5mgyf/worker_log.txt
+[2020-12-31T03:01:56-0800] [MainThread] [I] [toil.leader] Job ended: 'assess_itx_resistance' kind-assess_itx_resistance/instance-dxw_z467
+[2020-12-31T03:01:56-0800] [MainThread] [I] [toil.leader] Issued job 'run_itx_resistance_assessment' kind-run_itx_resistance_assessment/instance-alttflcz with job batch system ID: 65 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T03:01:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 03:01:56: Exporting files/for-job/kind-assess_car_t_validity/instance-2tqg8o0y/file-_s_7pdaz/car_t_target_report.txt to output location
+[2020-12-31T03:01:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 03:01:56: Ran car t validity assessment on VARIANT successfully
+[2020-12-31T03:01:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 03:01:56: Exporting files/for-job/kind-assess_mhc_genes/instance-juzzj2am/file-1m7w1n2c/mhc_pathway_report.txt to output location
+[2020-12-31T03:01:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 03:01:56: Ran mhc gene assessment on VARIANT successfully
+[2020-12-31T03:01:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 03:01:56: Exporting files/for-job/kind-assess_itx_resistance/instance-dxw_z467/file-lltw_l6d/immunotherapy_resistance_report.txt to output location
+[2020-12-31T03:01:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 03:01:56: Ran create immunotherapy resistance report on VARIANT successfully
+[2020-12-31T03:01:56-0800] [MainThread] [I] [toil.leader] Job ended: 'assess_car_t_validity' kind-assess_car_t_validity/instance-2tqg8o0y
+[2020-12-31T03:01:56-0800] [MainThread] [I] [toil.leader] Issued job 'run_car_t_validity_assessment' kind-run_car_t_validity_assessment/instance-rhvyx_ix with job batch system ID: 66 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T03:01:56-0800] [MainThread] [I] [toil.leader] Job ended: 'assess_mhc_genes' kind-assess_mhc_genes/instance-juzzj2am
+[2020-12-31T03:01:56-0800] [MainThread] [I] [toil.leader] Issued job 'run_mhc_gene_assessment' kind-run_mhc_gene_assessment/instance-qjjo1iyx with job batch system ID: 67 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T03:01:56-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp9r65tz7j/worker_log.txt
+[2020-12-31T03:01:56-0800] [MainThread] [I] [toil.leader] Job ended: 'run_itx_resistance_assessment' kind-run_itx_resistance_assessment/instance-alttflcz
+[2020-12-31T03:01:57-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpts9amdo1/worker_log.txt
+[2020-12-31T03:01:57-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp79seqgbw/worker_log.txt
+[2020-12-31T03:01:57-0800] [MainThread] [I] [toil.leader] Job ended: 'run_car_t_validity_assessment' kind-run_car_t_validity_assessment/instance-rhvyx_ix
+[2020-12-31T03:01:57-0800] [MainThread] [I] [toil.leader] Job ended: 'run_mhc_gene_assessment' kind-run_mhc_gene_assessment/instance-qjjo1iyx
+[2020-12-31T03:23:41-0800] [MainThread] [I] [toil.leader] 1 jobs are running, 0 jobs are issued and waiting to run
+[2020-12-31T04:23:41-0800] [MainThread] [I] [toil.leader] 1 jobs are running, 0 jobs are issued and waiting to run
+[2020-12-31T04:37:58-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:37:58: Exporting files/for-job/kind-run_fusion/instance-pu5g78qx/file-osk114fo/star-fusion.fusion_candidates.final.abridged to output location
+[2020-12-31T04:37:58-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:37:58: Exporting files/for-job/kind-run_fusion/instance-pu5g78qx/file-rjz16lqc/FusionInspector.fusion_predictions.final.abridged.FFPM to output location
+[2020-12-31T04:37:58-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:37:58: Exporting files/for-job/kind-run_fusion/instance-pu5g78qx/file-gy97bm78/FusionInspector.gmap_trinity_GG.fusions.fasta to output location
+[2020-12-31T04:37:58-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:37:58: Exporting files/for-job/kind-run_fusion/instance-pu5g78qx/file-vrhxfed5/FusionInspector.gmap_trinity_GG.fusions.gff3 to output location
+[2020-12-31T04:37:58-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:37:58: Exporting files/for-job/kind-run_fusion/instance-pu5g78qx/file-3vhf0wd4/fusion.final to output location
+[2020-12-31T04:37:58-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:37:58: Ran STAR-Fusion on VARIANT successfully
+[2020-12-31T04:37:58-0800] [Thread-3  ] [W] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:37:58: Job used more disk than requested. Consider modifying the user script to avoid the chance of failure due to incorrectly requested resources. Job files/for-job/kind-EncapsulatedJob/instance-t_lc1qp9/cleanup/file-7q12l7r2/stream used 108.44% (60.3 GB [64711974912B] used, 55.6 GB [59675286484B] requested) at the end of its run.
+[2020-12-31T04:37:58-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:37:58: Exporting files/for-job/kind-run_fusion/instance-pu5g78qx/file-0f7m2wjl/fusion_results.bedpe to output location
+[2020-12-31T04:37:58-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:37:58: Reformatted STAR-Fusion output for VARIANT successfully
+[2020-12-31T04:38:04-0800] [MainThread] [I] [toil.leader] Job ended: 'run_fusion' kind-run_fusion/instance-pu5g78qx
+[2020-12-31T04:38:04-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-24x1ogzc with job batch system ID: 68 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T04:38:05-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp9qbyjzmd/worker_log.txt
+[2020-12-31T04:38:05-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-24x1ogzc
+[2020-12-31T04:38:05-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-w_upunfx with job batch system ID: 69 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T04:38:06-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp3s30g85d/worker_log.txt
+[2020-12-31T04:38:06-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-w_upunfx
+[2020-12-31T04:38:06-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-4vapnab0 with job batch system ID: 70 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T04:38:06-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp_d_pdtt5/worker_log.txt
+[2020-12-31T04:38:06-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-4vapnab0
+[2020-12-31T04:38:06-0800] [MainThread] [I] [toil.leader] Issued job 'delete_fastqs' kind-delete_fastqs/instance-1s89ewgx with job batch system ID: 71 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:38:06-0800] [MainThread] [I] [toil.leader] Issued job 'delete_fastqs' kind-delete_fastqs/instance-8vmm5ye9 with job batch system ID: 72 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:38:06-0800] [MainThread] [I] [toil.leader] Issued job 'EncapsulatedJob' kind-EncapsulatedJob/instance-f0anawkr with job batch system ID: 73 and cores: 0, disk: 1.0 M, and memory: 32.0 M
+[2020-12-31T04:38:07-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpc73ppm5o/worker_log.txt
+[2020-12-31T04:38:07-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpeq7r9j6c/worker_log.txt
+[2020-12-31T04:38:07-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp080krey5/worker_log.txt
+[2020-12-31T04:38:07-0800] [MainThread] [I] [toil.leader] Job ended: 'EncapsulatedJob' kind-EncapsulatedJob/instance-f0anawkr
+[2020-12-31T04:38:07-0800] [MainThread] [I] [toil.leader] Issued job 'run_transgene' kind-run_transgene/instance-dot3dm5f with job batch system ID: 74 and cores: 1, disk: 1.1 G, and memory: 100.0 M
+[2020-12-31T04:38:07-0800] [MainThread] [I] [toil.leader] Job ended: 'delete_fastqs' kind-delete_fastqs/instance-8vmm5ye9
+[2020-12-31T04:38:08-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpqu8qvwdg/worker_log.txt
+[2020-12-31T04:38:08-0800] [MainThread] [I] [toil.leader] Job ended: 'delete_fastqs' kind-delete_fastqs/instance-1s89ewgx
+[2020-12-31T04:38:08-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:38:08: Deleting "VARIANT:tumor_rna_fastq_1" from the filestore.
+[2020-12-31T04:38:08-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:38:08: Deleting "VARIANT:tumor_rna_fastq_2" from the filestore.
+[2020-12-31T04:46:37-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:37: Exporting files/for-job/kind-run_transgene/instance-dot3dm5f/file-dcn10n0u/transgened_tumor_9_mer_peptides.faa to output location
+[2020-12-31T04:46:37-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:37: Exporting files/for-job/kind-run_transgene/instance-dot3dm5f/file-61nt39gj/transgened_normal_9_mer_peptides.faa to output location
+[2020-12-31T04:46:37-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:37: Exporting files/for-job/kind-run_transgene/instance-dot3dm5f/file-wqsn7ew2/transgened_tumor_9_mer_peptides.faa.map to output location
+[2020-12-31T04:46:37-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:37: Exporting files/for-job/kind-run_transgene/instance-dot3dm5f/file-v4nc0vub/transgened_tumor_10_mer_peptides.faa to output location
+[2020-12-31T04:46:37-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:37: Exporting files/for-job/kind-run_transgene/instance-dot3dm5f/file-ucl_n3hf/transgened_normal_10_mer_peptides.faa to output location
+[2020-12-31T04:46:37-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:37: Exporting files/for-job/kind-run_transgene/instance-dot3dm5f/file-ev9qu6ky/transgened_tumor_10_mer_peptides.faa.map to output location
+[2020-12-31T04:46:37-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:37: Exporting files/for-job/kind-run_transgene/instance-dot3dm5f/file-6c37wzym/transgened_tumor_15_mer_peptides.faa to output location
+[2020-12-31T04:46:37-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:37: Exporting files/for-job/kind-run_transgene/instance-dot3dm5f/file-wu1gli6b/transgened_normal_15_mer_peptides.faa to output location
+[2020-12-31T04:46:37-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:37: Exporting files/for-job/kind-run_transgene/instance-dot3dm5f/file-ltbm_e4y/transgened_tumor_15_mer_peptides.faa.map to output location
+[2020-12-31T04:46:37-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:37: Exporting files/for-job/kind-run_transgene/instance-dot3dm5f/file-h0ix279k/mutations.vcf to output location
+[2020-12-31T04:46:37-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:37: Exporting files/for-job/kind-run_transgene/instance-dot3dm5f/file-dp7hqf4w/fusions.bedpe to output location
+[2020-12-31T04:46:37-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:37: Ran transgene on VARIANT successfully
+[2020-12-31T04:46:37-0800] [Thread-3  ] [W] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:37: Job used more disk than requested. Consider modifying the user script to avoid the chance of failure due to incorrectly requested resources. Job files/for-job/kind-EncapsulatedJob/instance-f0anawkr/cleanup/file-m7wymi0i/stream used 586.39% (6.3 GB [6739865600B] used, 1.1 GB [1149392017B] requested) at the end of its run.
+[2020-12-31T04:46:38-0800] [MainThread] [I] [toil.leader] Job ended: 'run_transgene' kind-run_transgene/instance-dot3dm5f
+[2020-12-31T04:46:38-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-8ncrlate with job batch system ID: 75 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T04:46:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp7d0tya5a/worker_log.txt
+[2020-12-31T04:46:39-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-8ncrlate
+[2020-12-31T04:46:39-0800] [MainThread] [I] [toil.leader] Issued job 'delete_bams' kind-delete_bams/instance-565qad1b with job batch system ID: 76 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:39-0800] [MainThread] [I] [toil.leader] Issued job 'EncapsulatedJob' kind-EncapsulatedJob/instance-i3ng5aw4 with job batch system ID: 77 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpb7_7fnsc/worker_log.txt
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpmvln8_1a/worker_log.txt
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Job ended: 'delete_bams' kind-delete_bams/instance-565qad1b
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Job ended: 'EncapsulatedJob' kind-EncapsulatedJob/instance-i3ng5aw4
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhci_binding' kind-predict_mhci_binding/instance-1op7fwvw with job batch system ID: 78 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhci_binding' kind-predict_mhci_binding/instance-mzu8wld3 with job batch system ID: 79 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhci_binding' kind-predict_mhci_binding/instance-42lrxmos with job batch system ID: 80 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhci_binding' kind-predict_mhci_binding/instance-9xepto1z with job batch system ID: 81 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhci_binding' kind-predict_mhci_binding/instance-kzew8b10 with job batch system ID: 82 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhci_binding' kind-predict_mhci_binding/instance-bglzi_1v with job batch system ID: 83 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhci_binding' kind-predict_mhci_binding/instance-3t9vfq42 with job batch system ID: 84 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhci_binding' kind-predict_mhci_binding/instance-rphk96yc with job batch system ID: 85 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhci_binding' kind-predict_mhci_binding/instance-f2ikbh8u with job batch system ID: 86 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhci_binding' kind-predict_mhci_binding/instance-okf22tfz with job batch system ID: 87 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhcii_binding' kind-predict_mhcii_binding/instance-h2fdeeg_ with job batch system ID: 88 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhcii_binding' kind-predict_mhcii_binding/instance-d_sd4tee with job batch system ID: 89 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhcii_binding' kind-predict_mhcii_binding/instance-9ohjdti8 with job batch system ID: 90 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhcii_binding' kind-predict_mhcii_binding/instance-k61gxn53 with job batch system ID: 91 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhcii_binding' kind-predict_mhcii_binding/instance-itn01ob2 with job batch system ID: 92 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [MainThread] [I] [toil.leader] Issued job 'predict_mhcii_binding' kind-predict_mhcii_binding/instance-omfut6vw with job batch system ID: 93 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:46:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:40: Deleting "rna_transcriptome.bam" for patient "VARIANT".
+[2020-12-31T04:46:40-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:40: Ran spawn_anti on VARIANT successfully
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpf1ryf74d/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp46tv1t7u/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp2oo62ej6/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpqy359yy5/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmppydp6xci/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp2lvqyduw/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpfnif1wxh/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp4ls8ymyz/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp1ax87ycl/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpp99pzst1/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpql_owcyy/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpvlog5m23/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpv1lopa1x/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpu7c_0jpy/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp6y3t1zey/worker_log.txt
+[2020-12-31T04:46:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpt8giugeg/worker_log.txt
+[2020-12-31T04:46:48-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:48: Ran mhcii on VARIANT:HLA-DQA1*05:01/DQB1*02:01 successfully
+[2020-12-31T04:46:48-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:48: Ran mhcii on VARIANT:HLA-DQA1*05:01/DQB1*02:01 successfully
+[2020-12-31T04:46:48-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhcii_binding' kind-predict_mhcii_binding/instance-itn01ob2
+[2020-12-31T04:46:51-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhcii_binding' kind-predict_mhcii_binding/instance-h2fdeeg_
+[2020-12-31T04:46:51-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:51: Ran mhcii on VARIANT:HLA-DRB1*03:01 successfully
+[2020-12-31T04:46:51-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:51: Ran mhcii on VARIANT:HLA-DRB1*03:01 successfully
+[2020-12-31T04:46:53-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhci_binding' kind-predict_mhci_binding/instance-okf22tfz
+[2020-12-31T04:46:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:53: Ran mhci on VARIANT:HLA-C*07:01:10 successfully
+[2020-12-31T04:46:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:53: Ran predict_normal_binding on VARIANT for allele HLA-C*07:01 and length 10 successfully
+[2020-12-31T04:46:53-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:53: Ran mhci on VARIANT:HLA-C*07:01:10 successfully
+[2020-12-31T04:46:54-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhci_binding' kind-predict_mhci_binding/instance-rphk96yc
+[2020-12-31T04:46:54-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhci_binding' kind-predict_mhci_binding/instance-3t9vfq42
+[2020-12-31T04:46:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:54: Ran mhci on VARIANT:HLA-C*06:02:9 successfully
+[2020-12-31T04:46:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:54: Ran predict_normal_binding on VARIANT for allele HLA-C*06:02 and length 9 successfully
+[2020-12-31T04:46:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:54: Ran mhci on VARIANT:HLA-C*06:02:9 successfully
+[2020-12-31T04:46:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:54: Ran mhci on VARIANT:HLA-C*06:02:10 successfully
+[2020-12-31T04:46:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:54: Ran predict_normal_binding on VARIANT for allele HLA-C*06:02 and length 10 successfully
+[2020-12-31T04:46:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:54: Ran mhci on VARIANT:HLA-C*06:02:10 successfully
+[2020-12-31T04:46:54-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhci_binding' kind-predict_mhci_binding/instance-kzew8b10
+[2020-12-31T04:46:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:54: Ran mhci on VARIANT:HLA-B*08:01:9 successfully
+[2020-12-31T04:46:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:54: Ran predict_normal_binding on VARIANT for allele HLA-B*08:01 and length 9 successfully
+[2020-12-31T04:46:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:54: Ran mhci on VARIANT:HLA-B*08:01:9 successfully
+[2020-12-31T04:46:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:54: Ran mhci on VARIANT:HLA-C*07:01:9 successfully
+[2020-12-31T04:46:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:54: Ran predict_normal_binding on VARIANT for allele HLA-C*07:01 and length 9 successfully
+[2020-12-31T04:46:54-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:54: Ran mhci on VARIANT:HLA-C*07:01:9 successfully
+[2020-12-31T04:46:55-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhci_binding' kind-predict_mhci_binding/instance-f2ikbh8u
+[2020-12-31T04:46:55-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhci_binding' kind-predict_mhci_binding/instance-1op7fwvw
+[2020-12-31T04:46:55-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:55: Ran mhci on VARIANT:HLA-A*29:02:9 successfully
+[2020-12-31T04:46:55-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:55: Ran predict_normal_binding on VARIANT for allele HLA-A*29:02 and length 9 successfully
+[2020-12-31T04:46:55-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:55: Ran mhci on VARIANT:HLA-A*29:02:9 successfully
+[2020-12-31T04:46:56-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhci_binding' kind-predict_mhci_binding/instance-42lrxmos
+[2020-12-31T04:46:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:56: Ran mhci on VARIANT:HLA-B*45:01:9 successfully
+[2020-12-31T04:46:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:56: Ran predict_normal_binding on VARIANT for allele HLA-B*45:01 and length 9 successfully
+[2020-12-31T04:46:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:56: Ran mhci on VARIANT:HLA-B*45:01:9 successfully
+[2020-12-31T04:46:56-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhci_binding' kind-predict_mhci_binding/instance-bglzi_1v
+[2020-12-31T04:46:56-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhci_binding' kind-predict_mhci_binding/instance-9xepto1z
+[2020-12-31T04:46:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:56: Ran mhci on VARIANT:HLA-B*45:01:10 successfully
+[2020-12-31T04:46:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:56: Ran predict_normal_binding on VARIANT for allele HLA-B*45:01 and length 10 successfully
+[2020-12-31T04:46:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:56: Ran mhci on VARIANT:HLA-B*45:01:10 successfully
+[2020-12-31T04:46:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:56: Ran mhci on VARIANT:HLA-B*08:01:10 successfully
+[2020-12-31T04:46:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:56: Ran predict_normal_binding on VARIANT for allele HLA-B*08:01 and length 10 successfully
+[2020-12-31T04:46:56-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:56: Ran mhci on VARIANT:HLA-B*08:01:10 successfully
+[2020-12-31T04:46:58-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhci_binding' kind-predict_mhci_binding/instance-mzu8wld3
+[2020-12-31T04:46:58-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:58: Ran mhci on VARIANT:HLA-A*29:02:10 successfully
+[2020-12-31T04:46:58-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:58: Ran predict_normal_binding on VARIANT for allele HLA-A*29:02 and length 10 successfully
+[2020-12-31T04:46:58-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:46:58: Ran mhci on VARIANT:HLA-A*29:02:10 successfully
+[2020-12-31T04:48:58-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:48:58: Ran mhcii on VARIANT:HLA-DQA1*03:03/DQB1*02:01 successfully
+[2020-12-31T04:48:58-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:48:58: Ran netmhciipan on HLA-DQA10303-DQB10201 successfully
+[2020-12-31T04:48:58-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:48:58: Ran netmhciipan on HLA-DQA10303-DQB10201 successfully
+[2020-12-31T04:48:58-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhcii_binding' kind-predict_mhcii_binding/instance-9ohjdti8
+[2020-12-31T04:49:05-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhcii_binding' kind-predict_mhcii_binding/instance-k61gxn53
+[2020-12-31T04:49:06-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:06: Ran mhcii on VARIANT:HLA-DQA1*03:03/DQB1*03:02 successfully
+[2020-12-31T04:49:06-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:06: Ran netmhciipan on HLA-DQA10303-DQB10302 successfully
+[2020-12-31T04:49:06-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:06: Ran netmhciipan on HLA-DQA10303-DQB10302 successfully
+[2020-12-31T04:49:15-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhcii_binding' kind-predict_mhcii_binding/instance-d_sd4tee
+[2020-12-31T04:49:16-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:16: Ran mhcii on VARIANT:HLA-DRB1*04:03 successfully
+[2020-12-31T04:49:16-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:16: Ran netmhciipan on DRB1_0403 successfully
+[2020-12-31T04:49:16-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:16: Ran netmhciipan on DRB1_0403 successfully
+[2020-12-31T04:49:22-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:22: Ran mhcii on VARIANT:HLA-DQA1*05:01/DQB1*03:02 successfully
+[2020-12-31T04:49:22-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:22: Ran netmhciipan on HLA-DQA10501-DQB10302 successfully
+[2020-12-31T04:49:22-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:22: Ran netmhciipan on HLA-DQA10501-DQB10302 successfully
+[2020-12-31T04:49:22-0800] [MainThread] [I] [toil.leader] Job ended: 'predict_mhcii_binding' kind-predict_mhcii_binding/instance-omfut6vw
+[2020-12-31T04:49:22-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-71vrbods with job batch system ID: 94 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T04:49:23-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpqhjxkjxu/worker_log.txt
+[2020-12-31T04:49:23-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-71vrbods
+[2020-12-31T04:49:23-0800] [MainThread] [I] [toil.leader] Issued job 'merge_mhc_peptide_calls' kind-merge_mhc_peptide_calls/instance-runyzugk with job batch system ID: 95 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:49:24-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp8otqd61r/worker_log.txt
+[2020-12-31T04:49:25-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:25: Merging MHC calls
+[2020-12-31T04:49:25-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:25: Exporting files/for-job/kind-merge_mhc_peptide_calls/instance-runyzugk/file-nmewjxx7/mhci_merged_files.list to output location
+[2020-12-31T04:49:25-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:25: Exporting files/for-job/kind-merge_mhc_peptide_calls/instance-runyzugk/file-s10364wa/mhcii_merged_files.list to output location
+[2020-12-31T04:49:25-0800] [MainThread] [I] [toil.leader] Job ended: 'merge_mhc_peptide_calls' kind-merge_mhc_peptide_calls/instance-runyzugk
+[2020-12-31T04:49:25-0800] [MainThread] [I] [toil.leader] Issued job 'wrap_rankboost' kind-wrap_rankboost/instance-xvwbnp2n with job batch system ID: 96 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:49:26-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpak9f_obh/worker_log.txt
+[2020-12-31T04:49:26-0800] [MainThread] [I] [toil.leader] Job ended: 'wrap_rankboost' kind-wrap_rankboost/instance-xvwbnp2n
+[2020-12-31T04:49:26-0800] [MainThread] [I] [toil.leader] Issued job 'boost_ranks' kind-boost_ranks/instance-p3zp2abw with job batch system ID: 97 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T04:49:26-0800] [MainThread] [I] [toil.leader] Issued job 'email_report' kind-email_report/instance-0bpr3gy5 with job batch system ID: 98 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T04:49:27-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpbow8tl9f/worker_log.txt
+[2020-12-31T04:49:27-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpi5s_cwxi/worker_log.txt
+[2020-12-31T04:49:27-0800] [MainThread] [I] [toil.leader] Job ended: 'email_report' kind-email_report/instance-0bpr3gy5
+[2020-12-31T04:49:36-0800] [MainThread] [I] [toil.leader] Job ended: 'boost_ranks' kind-boost_ranks/instance-p3zp2abw
+[2020-12-31T04:49:36-0800] [MainThread] [I] [toil.leader] Issued job 'wrap_rankboost' kind-wrap_rankboost/instance-xvwbnp2n with job batch system ID: 99 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:49:36-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:36: Exporting files/for-job/kind-boost_ranks/instance-p3zp2abw/file-v3a07b_o/mhci_rankboost_concise_results.tsv to output location
+[2020-12-31T04:49:36-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:36: Exporting files/for-job/kind-boost_ranks/instance-p3zp2abw/file-jy_4fpoh/mhci_rankboost_detailed_results.txt to output location
+[2020-12-31T04:49:36-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:36: Exporting files/for-job/kind-boost_ranks/instance-p3zp2abw/file-5pkb1uku/mhcii_rankboost_concise_results.tsv to output location
+[2020-12-31T04:49:36-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:36: Exporting files/for-job/kind-boost_ranks/instance-p3zp2abw/file-y1ksyo_f/mhcii_rankboost_detailed_results.txt to output location
+[2020-12-31T04:49:36-0800] [Thread-3  ] [I] [toil.statsAndLogging] Got message from job at time 12-31-2020 04:49:36: Ran boost_ranks on VARIANT successfully
+[2020-12-31T04:49:36-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpiji8p1be/worker_log.txt
+[2020-12-31T04:49:36-0800] [MainThread] [I] [toil.leader] Job ended: 'wrap_rankboost' kind-wrap_rankboost/instance-xvwbnp2n
+[2020-12-31T04:49:36-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-6v5gz15g with job batch system ID: 100 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T04:49:36-0800] [MainThread] [I] [toil.leader] Issued job 'merge_mhc_peptide_calls' kind-merge_mhc_peptide_calls/instance-runyzugk with job batch system ID: 101 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:49:37-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp_ubxr0n2/worker_log.txt
+[2020-12-31T04:49:37-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpf5ob4hgg/worker_log.txt
+[2020-12-31T04:49:37-0800] [MainThread] [I] [toil.leader] Job ended: 'merge_mhc_peptide_calls' kind-merge_mhc_peptide_calls/instance-runyzugk
+[2020-12-31T04:49:37-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-71vrbods with job batch system ID: 102 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T04:49:37-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-6v5gz15g
+[2020-12-31T04:49:37-0800] [MainThread] [I] [toil.leader] Issued job 'run_rsem' kind-EncapsulatedJob/instance-04_wb8gz with job batch system ID: 103 and cores: 1, disk: 100.0 M, and memory: 2.0 G
+[2020-12-31T04:49:38-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpjwdsv5rk/worker_log.txt
+[2020-12-31T04:49:38-0800] [MainThread] [I] [toil.leader] Job ended: 'run_rsem' kind-EncapsulatedJob/instance-04_wb8gz
+[2020-12-31T04:49:38-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpfiq9mtl4/worker_log.txt
+[2020-12-31T04:49:38-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-71vrbods
+[2020-12-31T04:49:38-0800] [MainThread] [I] [toil.leader] Issued job 'spawn_antigen_predictors' kind-EncapsulatedJob/instance-i3ng5aw4 with job batch system ID: 104 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:49:38-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpiiuegul2/worker_log.txt
+[2020-12-31T04:49:38-0800] [MainThread] [I] [toil.leader] Job ended: 'spawn_antigen_predictors' kind-EncapsulatedJob/instance-i3ng5aw4
+[2020-12-31T04:49:38-0800] [MainThread] [I] [toil.leader] Issued job 'get_patient_mhc_haplotype' kind-get_patient_mhc_haplotype/instance-xopd2pjg with job batch system ID: 105 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T04:49:38-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-8ncrlate with job batch system ID: 106 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T04:49:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp15e05n7b/worker_log.txt
+[2020-12-31T04:49:39-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp_bt29zgm/worker_log.txt
+[2020-12-31T04:49:39-0800] [MainThread] [I] [toil.leader] Job ended: 'get_patient_mhc_haplotype' kind-get_patient_mhc_haplotype/instance-xopd2pjg
+[2020-12-31T04:49:39-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-8ncrlate
+[2020-12-31T04:49:39-0800] [MainThread] [I] [toil.leader] Issued job 'run_transgene' kind-EncapsulatedJob/instance-f0anawkr with job batch system ID: 107 and cores: 0, disk: 1.0 M, and memory: 32.0 M
+[2020-12-31T04:49:40-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpzt1w86di/worker_log.txt
+[2020-12-31T04:49:40-0800] [MainThread] [I] [toil.leader] Job ended: 'run_transgene' kind-EncapsulatedJob/instance-f0anawkr
+[2020-12-31T04:49:40-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-kpjk23nd with job batch system ID: 108 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T04:49:40-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-4vapnab0 with job batch system ID: 109 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T04:49:40-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpnuid47c9/worker_log.txt
+[2020-12-31T04:49:40-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-kpjk23nd
+[2020-12-31T04:49:40-0800] [MainThread] [I] [toil.leader] Issued job 'run_snpeff' kind-get_patient_vcf/instance-eahcihi0 with job batch system ID: 110 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T04:49:40-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpg9u2q4du/worker_log.txt
+[2020-12-31T04:49:41-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-4vapnab0
+[2020-12-31T04:49:41-0800] [MainThread] [I] [toil.leader] Issued job 'run_fusion' kind-EncapsulatedJob/instance-t_lc1qp9 with job batch system ID: 111 and cores: 1, disk: 100.0 M, and memory: 100.0 M
+[2020-12-31T04:49:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpsjtpv6va/worker_log.txt
+[2020-12-31T04:49:41-0800] [MainThread] [I] [toil.leader] Job ended: 'run_snpeff' kind-get_patient_vcf/instance-eahcihi0
+[2020-12-31T04:49:41-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp5qmk8i_5/worker_log.txt
+[2020-12-31T04:49:41-0800] [MainThread] [I] [toil.leader] Job ended: 'run_fusion' kind-EncapsulatedJob/instance-t_lc1qp9
+[2020-12-31T04:49:41-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-mmpyyo3n with job batch system ID: 112 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T04:49:42-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp4xvmpglr/worker_log.txt
+[2020-12-31T04:49:42-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-mmpyyo3n
+[2020-12-31T04:49:42-0800] [MainThread] [I] [toil.leader] Issued job 'run_star' kind-EncapsulatedJob/instance-ntaxesva with job batch system ID: 113 and cores: 1, disk: 100.0 M, and memory: 2.0 G
+[2020-12-31T04:49:42-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpln9aahs7/worker_log.txt
+[2020-12-31T04:49:42-0800] [MainThread] [I] [toil.leader] Job ended: 'run_star' kind-EncapsulatedJob/instance-ntaxesva
+[2020-12-31T04:49:42-0800] [MainThread] [I] [toil.leader] Issued job 'Job' kind-Job/instance-ih_8m8c4 with job batch system ID: 114 and cores: 0, disk: 100.0 M, and memory: 512.0 M
+[2020-12-31T04:49:43-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpicxyzs31/worker_log.txt
+[2020-12-31T04:49:43-0800] [MainThread] [I] [toil.leader] Job ended: 'Job' kind-Job/instance-ih_8m8c4
+[2020-12-31T04:49:43-0800] [MainThread] [I] [toil.leader] Issued job 'run_cutadapt' kind-EncapsulatedJob/instance-rfp85kfh with job batch system ID: 115 and cores: 0, disk: 1.0 M, and memory: 32.0 M
+[2020-12-31T04:49:44-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp5hmcgzqb/worker_log.txt
+[2020-12-31T04:49:44-0800] [MainThread] [I] [toil.leader] Job ended: 'run_cutadapt' kind-EncapsulatedJob/instance-rfp85kfh
+[2020-12-31T04:49:44-0800] [MainThread] [I] [toil.leader] Issued job 'get_patient_fastqs' kind-get_patient_fastqs/instance-08_hj0_8 with job batch system ID: 116 and cores: 1, disk: 10.0 M, and memory: 2.0 G
+[2020-12-31T04:49:44-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpooef79jz/worker_log.txt
+[2020-12-31T04:49:44-0800] [MainThread] [I] [toil.leader] Job ended: 'get_patient_fastqs' kind-get_patient_fastqs/instance-08_hj0_8
+[2020-12-31T04:49:44-0800] [MainThread] [I] [toil.leader] Issued job 'prepare_samples' kind-prepare_samples/instance-g585eeji with job batch system ID: 117 and cores: 1, disk: 40.0 G, and memory: 2.0 G
+[2020-12-31T04:49:45-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmpwi78uf5k/worker_log.txt
+[2020-12-31T04:49:45-0800] [MainThread] [I] [toil.leader] Job ended: 'prepare_samples' kind-prepare_samples/instance-g585eeji
+[2020-12-31T04:49:45-0800] [MainThread] [I] [toil.leader] Issued job 'launch_protect' kind-launch_protect/instance-sns38iz9 with job batch system ID: 118 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T04:49:46-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmporwxm8t1/worker_log.txt
+[2020-12-31T04:49:46-0800] [MainThread] [I] [toil.leader] Job ended: 'launch_protect' kind-launch_protect/instance-sns38iz9
+[2020-12-31T04:49:46-0800] [MainThread] [I] [toil.leader] Issued job 'get_all_tool_inputs' kind-parse_config_file/instance-2asyb97d with job batch system ID: 119 and cores: 1, disk: 2.0 G, and memory: 2.0 G
+[2020-12-31T04:49:46-0800] [MainThread] [I] [toil.worker] Redirecting logging to /scratch/drkthomp/workDir/node-c1c6d9ad-3fe1-460f-ac1e-a1a23b253134-e8611b53-bdab-4598-acae-87977f99831e/tmp6gp5e_6g/worker_log.txt
+[2020-12-31T04:49:46-0800] [MainThread] [I] [toil.leader] Job ended: 'get_all_tool_inputs' kind-parse_config_file/instance-2asyb97d
+[2020-12-31T04:49:49-0800] [MainThread] [I] [toil.leader] Finished toil run successfully.
+[2020-12-31T04:49:59-0800] [MainThread] [I] [toil.common] Successfully deleted the job store: FileJobStore(/scratch/drkthomp/chr6jobStore)

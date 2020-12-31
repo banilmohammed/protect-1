@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "/private/home/drkthomp/protect/venv/bin/ProTECT", line 11, in <module>
+    load_entry_point('protect', 'console_scripts', 'ProTECT')()
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/pkg_resources/__init__.py", line 565, in load_entry_point
+    return get_distribution(dist).load_entry_point(group, name)
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2631, in load_entry_point
+    return ep.load()
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2291, in load
+    return self.resolve()
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/pkg_resources/__init__.py", line 2297, in resolve
+    module = __import__(self.module_name, fromlist=['__name__'], level=0)
+  File "/private/home/drkthomp/protect/src/protect/pipeline/ProTECT.py", line 50, in <module>
+    from protect.mutation_calling.fusion import wrap_fusion
+  File "/private/home/drkthomp/protect/src/protect/mutation_calling/fusion.py", line 19, in <module>
+    from bd2k.util.expando import Expando
+ModuleNotFoundError: No module named 'bd2k'

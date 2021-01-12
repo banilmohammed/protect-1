@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "/private/home/drkthomp/protect/venv/bin/ProTECT", line 11, in <module>
+    load_entry_point('protect', 'console_scripts', 'ProTECT')()
+  File "/private/home/drkthomp/protect/src/protect/pipeline/ProTECT.py", line 1028, in main
+    Job.Runner.startToil(start, params)
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/job.py", line 794, in startToil
+    with Toil(options) as toil:
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/common.py", line 770, in __enter__
+    config.setOptions(self.options)
+  File "/private/home/drkthomp/protect/venv/lib/python3.6/site-packages/toil/common.py", line 202, in setOptions
+    % self.workDir)
+RuntimeError: The path provided to --workDir (/scratch/drkthomp/workDir2) does not exist.

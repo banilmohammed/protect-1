@@ -50,7 +50,7 @@ Universal_Options:
     storage_location: Local # Local or aws:<bucket_name> for where the output must go
     #storage_location: aws:protect-run-xyz
     output_folder: /scratch/drkthomp/results # Path to where the output must go.
-    mail_to: drkthomp@ucsc.edu  # Email patients:
+    #mail_to: drkthomp@ucsc.edu  # Email patients:
     #TEST:
     #    tumor_dna_fastq_1: /home/drkthomp/e/treehouse/gms/hcc1395_1tenth_percent/sort/gerald_D1VCPACXX_1_R1.fastq
     #    tumor_dna_fastq_2: /home/drkthomp/e/treehouse/gms/hcc1395_1tenth_percent/sort/gerald_D1VCPACXX_1_R2.fastq

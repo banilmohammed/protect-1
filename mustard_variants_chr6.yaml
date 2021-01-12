@@ -31,7 +31,10 @@ patients:
         tumor_rna_fastq_1: /scratch/drkthomp/chr6_only/chr6_1.fastq
         tumor_rna_fastq_2: /scratch/drkthomp/chr6_only/chr6_2.fastq
         #tumor_rna_bam: /scratch/drkthomp/rna_genome_sortedmd.bam
-        mutation_vcf: /scratch/drkthomp/results/CHR6/mutations/merged/chr6.vcf 
+        #vcf from platypus:
+        mutation_vcf: /scratch/drkthomp/chr6_only/variants_chr6.vcf
+        #vcf from previous run: 
+        #mutation_vcf: /scratch/drkthomp/results/CHR6/mutations/merged/chr6.vcf 
         hla_haplotype_files: /scratch/drkthomp/results/CHR6/haplotypes.tar.gz
         tumor_type: 'SKCM'
 

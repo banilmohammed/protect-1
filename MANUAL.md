@@ -42,10 +42,6 @@ s3am during installation.~
 
 currently WIP. for now, **only references to local files will work**. anything that requires access to s3am (s3 buckets) will **fail**. 
 
-~ProTECT uses pkg_resources from setuptools to verify versions of tools during install. As of setuptools
-39.0.1, some modules were moved to the packaging module. If your machine has setuptools >=39.0.1, you
-will need the packaging module.~
-
 Lastly, ProTECT uses [docker](https://www.docker.com/) to run the various sub-tools in a
 reproducible, platform independent manner. ProTECT will NOT attempt to install docker during
 installation.

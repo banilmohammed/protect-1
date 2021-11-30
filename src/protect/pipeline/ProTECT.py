@@ -110,6 +110,7 @@ def _ensure_patient_group_is_ok(patient_object, patient_name=None):
         raise ParameterError(('The patient entry for sample %s ' % patient_name) +
                              'does contains an invalid Tumor type. Please use one of the '
                              'valid TCGA tumor types.')
+
     if {'tumor_dna_fastq_1', 'normal_dna_fastq_1', 'tumor_rna_fastq_1'}.issubset(test_set):
         # Best case scenario, we get all fastqs
         pass
@@ -119,8 +120,10 @@ def _ensure_patient_group_is_ok(patient_object, patient_name=None):
             raise ParameterError(('The patient entry for sample %s ' % patient_name) +
                                  'does not contain a hla_haplotype_files entry.\nCannot haplotype '
                                  'patient if all the input sequence files are not fastqs.')
+        if {re.search('tumor_rna_((bam))|(fastq_1)).*', x) for x in test_set} != {None}:
+            pass
         # Either we have a fastq and/or bam for the tumor and normal, or we need to be given a vcf
-        if (({re.search('tumor_dna_((bam)|(fastq_1)).*', x) for x in test_set} == {None} or
+        elif (({re.search('tumor_dna_((bam)|(fastq_1)).*', x) for x in test_set} == {None} or
                 {re.search('normal_dna_((bam)|(fastq_1)).*', x) for x in test_set} == {None}) and
                 ('mutation_vcf' not in test_set and 'fusion_bedpe' not in test_set)):
             raise ParameterError(('The patient entry for sample %s ' % patient_name) +
@@ -128,7 +131,7 @@ def _ensure_patient_group_is_ok(patient_object, patient_name=None):
                                  'tumor and normal DNA sequences (fastqs or bam) are not provided, '
                                  'a pre-computed vcf and/or bedpe must be provided.')
         # We have to be given a tumor rna fastq or bam unless we are processing ONLY fusions
-        if {re.search('tumor_rna_((bam)|(fastq_1)).*', x) for x in test_set} == {None}:
+        elif {re.search('tumor_rna_((bam)|(fastq_1)).*', x) for x in test_set} == {None}:
             if 'mutation_vcf' not in test_set and 'fusion_bedpe' in test_set:
                 # The only case where it is ok to not have the genome mapped rna.
                 pass
@@ -138,7 +141,7 @@ def _ensure_patient_group_is_ok(patient_object, patient_name=None):
                                      'either tumor_rna_fastq_1 or tumor_rna_bam.')
         # If we are given an RNA bam then it needs to have a corresponding transcriptome bam unless
         # we have also been provided expression values.
-        if 'tumor_rna_bam' in test_set and 'tumor_rna_transcriptome_bam' not in test_set:
+        elif 'tumor_rna_bam' in test_set and 'tumor_rna_transcriptome_bam' not in test_set:
             if 'expression_files' not in test_set:
                 raise ParameterError(('The patient entry for sample %s ' % patient_name +
                                       'was provided a tumor rna bam with sequences mapped to the '
@@ -632,6 +635,18 @@ def launch_protect(job, patient_data, univ_options, tool_options):
     elif 'fusion_bedpe' in patient_data:
         # Fusions have been handled above, and we don't need to align DNA
         get_mutations = None
+    elif 'tumor_rna' in patient_data and 'tumor_dna' not in patient_data:
+        # this means we're doing an RNA run
+        mutations = {'protect':job.wrapJobFn(run_protect, bam_files['tumor_rna'].rv(), univ_options,tool_options['opossum'], tool_options['protect'])}
+        bam_files['tumor_rna'].addChild(mutations['protect'])
+        get_mutations = job.wrapJobFn(run_mutation_aggregator,
+                                      {caller: cjob.rv() for caller, cjob in list(mutations.items())},
+                                      univ_options, disk='100M', memory='100M',
+                                      cores=1).encapsulate()
+        for caller in mutations:
+            mutations[caller].addChild(get_mutations)
+
+
     else:
         assert (None, None) not in list(zip(list(fastq_files.values()), list(bam_files.values())))
         for sample_type in 'tumor_dna', 'normal_dna':

@@ -31,7 +31,7 @@ from io import IOBase
 import errno
 import gzip
 import logging
-import shutil 
+import shutil
 import os
 import re
 import smtplib

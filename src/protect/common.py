@@ -108,7 +108,10 @@ def docker_call(tool, tool_parameters, work_dir, java_xmx=None, outfile=None,
     else:
         interactive = ''
     # Set the tool version
-    docker_tool = ''.join([dockerhub, '/', tool, ':', tool_version])
+    if "/" in tool:
+        docker_tool = ''.join([tool, ":", tool_version])
+    else:
+        docker_tool = ''.join([dockerhub, '/', tool, ':', tool_version])
     # Get the docker image on the worker if needed
     call = ['docker', 'images']
     dimg_rv = subprocess.check_output(call).decode('utf-8')

@@ -168,6 +168,7 @@ def merge_perchrom_vcfs(job, perchrom_vcfs, tool_name, univ_options):
     :param dict perchrom_vcfs: Dictionary with chromosome name as key and fsID of the corresponding
            vcf as value
     :param str tool_name: Name of the tool that generated the vcfs
+    :param dict univ_options: Dict of universal options used by almost all tools
     :returns: fsID for the merged vcf
     :rtype: toil.fileStore.FileID
     """

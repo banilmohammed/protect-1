@@ -14,23 +14,23 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import os
 from collections import defaultdict
 from math import ceil
 
+from toil.job import PromisedRequirement
+
 from protect.common import (docker_path,
                             docker_call,
-                            export_results,
                             get_files_from_filestore,
                             untargz)
 from protect.mutation_calling.common import sample_chromosomes, merge_perchrom_vcfs
-from toil.job import PromisedRequirement
-
-import os
-import sys
 
 
 # disk for platypus
 def platypus_disk(rna_bam, fasta):
+    print("Setting platypus disk to" + str(int(ceil(rna_bam.size) +
+               5 * ceil(fasta.size))))
     return int(ceil(rna_bam.size) +
                5 * ceil(fasta.size))
 

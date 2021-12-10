@@ -28,9 +28,9 @@
 # Any number of patients/samples can be listed here
 patients:
     TEST:
-        tumor_dna_fastq_1: /home/drkthomp/gerald_D1VCPACXX_1.bam
-        normal_dna_fastq_2: /home/drkthomp/gerald_D1VCPACXX_6.bam
-        tumor_rna_fastq_2: /home/drkthomp//gerald_C1TD1ACXX_8_ACAGTG.bam
+        tumor_rna_fastq_1: /home/dranion/Treehouse/protect/rna_1.fastq
+        tumor_rna_fastq_2: /home/dranion/Treehouse/protect/rna_2.fastq
+        hla_haplotype_files: /home/dranion/Treehouse/protect/mla_haplotypes.tar.gz
         tumor_type: 'SKCM'
 
 # These are options that are used by most tools
@@ -43,7 +43,7 @@ Universal_Options:
     # gdc_download_token: /path/to/token.txt # Path to the user's GDC download token.
     storage_location: Local # Local or aws:<bucket_name> for where the output must go
     #storage_location: aws:protect-run-xyz
-    output_folder: /home/drkthomp/results # Path to where the output must go.
+    output_folder: /media/dranion/76E8-CACF/protect/results # Path to where the output must go.
     #mail_to: test.email@host.com  # Email patients:
   
 
@@ -58,10 +58,10 @@ alignment:
         # version: 1.9.1
     star:
         type: star # use starlong if your reads are > 150bp
-        index: /home/drkthomp/e/protect-data/star_with_fusion_100bp_readlen_indexes.tar.gz # Use star_without if you set star_fusion = False
+        index: /home/dranion/Treehouse/protect-index/star_with_fusion_100bp_readlen_indexes.tar.gz # Use star_without if you set star_fusion = False
         # version: 2.5.2b
     bwa:
-       index: /home/drkthomp/e/protect-data/bwa_index.tar.gz
+       index: /home/dranion/Treehouse/protect-index/bwa_index.tar.gz
         # version: 0.7.9a
     post:
         samtools:
@@ -71,31 +71,31 @@ alignment:
 
 expression_estimation:
     rsem:
-        index: /home/drkthomp/e/protect-data/rsem_index.tar.gz
+        index: /home/dranion/Treehouse/protect-index/rsem_index.tar.gz
         # version: 1.2.0
 
 mutation_calling:
     indexes:
         chromosomes: canonical_chr, chrM
-        genome_fasta: /home/drkthomp/e/protect-data/hg38.fa.tar.gz
-        genome_fai: /home/drkthomp/e/protect-data/hg38.fa.fai.tar.gz
-        genome_dict: /home/drkthomp/e/protect-data/hg38.dict.tar.gz
-        cosmic_vcf: /home/drkthomp/e/protect-data/CosmicCodingMuts.vcf.tar.gz
-        cosmic_idx: /home/drkthomp/e/protect-data/CosmicCodingMuts.vcf.idx.tar.gz
-        dbsnp_vcf: /home/drkthomp/e/protect-data/dbsnp_coding.vcf.gz
-        dbsnp_idx: /home/drkthomp/e/protect-data/dbsnp_coding.vcf.idx.tar.gz
-        dbsnp_tbi: /home/drkthomp/e/protect-data/dbsnp_coding.vcf.gz.tbi
+        genome_fasta: /home/dranion/Treehouse/protect-index/hg38.fa.tar.gz
+        genome_fai: /home/dranion/Treehouse/protect-index/hg38.fa.fai.tar.gz
+        genome_dict: /home/dranion/Treehouse/protect-index/hg38.dict.tar.gz
+        cosmic_vcf: /home/dranion/Treehouse/protect-index/CosmicCodingMuts.vcf.tar.gz
+        cosmic_idx: /home/dranion/Treehouse/protect-index/CosmicCodingMuts.vcf.idx.tar.gz
+        dbsnp_vcf: /home/dranion/Treehouse/protect-index/dbsnp_coding.vcf.gz
+        dbsnp_idx: /home/dranion/Treehouse/protect-index/dbsnp_coding.vcf.idx.tar.gz
+        dbsnp_tbi: /home/dranion/Treehouse/protect-index/dbsnp_coding.vcf.gz.tbi
     mutect:
         java_Xmx: 2G
         # version: 1.1.7
     muse:
         # version: 1.0rc_submission_b391201
     radia:
-        cosmic_beds: /home/drkthomp/e/protect-data/radia_cosmic.tar.gz
-        dbsnp_beds: /home/drkthomp/e/protect-data/radia_dbsnp.tar.gz
-        retrogene_beds: /home/drkthomp/e/protect-data/radia_retrogenes.tar.gz
-        pseudogene_beds: /home/drkthomp/e/protect-data/radia_pseudogenes.tar.gz
-        gencode_beds: /home/drkthomp/e/protect-data/radia_gencode.tar.gz
+        cosmic_beds: /home/dranion/Treehouse/protect-index/radia_cosmic.tar.gz
+        dbsnp_beds: /home/dranion/Treehouse/protect-index/radia_dbsnp.tar.gz
+        retrogene_beds: /home/dranion/Treehouse/protect-index/radia_retrogenes.tar.gz
+        pseudogene_beds: /home/dranion/Treehouse/protect-index/radia_pseudogenes.tar.gz
+        gencode_beds: /home/dranion/Treehouse/protect-index/radia_gencode.tar.gz
         # version: 398366ef07b5911d8082ed61cbf03d487a41f286
     somaticsniper:
         # version: 1.0.4
@@ -111,35 +111,40 @@ mutation_calling:
         #version: 1.0.1
     strelka:
         # version: 1.0.15
-        config_file: /home/drkthomp/e/protect-data/strelka_bwa_WXS_config.ini.tar.gz
+        config_file: /home/dranion/Treehouse/protect-index/strelka_bwa_WXS_config.ini.tar.gz
+    opossum:
+        soft_keys: True
+        # version: latest
+    platypus:
+        # version: latest
 
 
 mutation_annotation:
     snpeff:
-        index: /home/drkthomp/e/protect-data/snpeff_index.tar.gz
+        index: /home/dranion/Treehouse/protect-index/snpeff_index.tar.gz
         # version: 3.6
         java_Xmx: 20G
 
 mutation_translation:
     transgene:
-        gencode_peptide_fasta : /home/drkthomp/e/protect-data/gencode.v25.pc_translations_NOPARY.fa.tar.gz
-        gencode_transcript_fasta : /home/drkthomp/e/protect-data/gencode.v25.pc_transcripts_NOPARY.fa.tar.gz
-        gencode_annotation_gtf : /home/drkthomp/e/protect-data/gencode.v25.annotation_NOPARY.gtf.tar.gz
-        genome_fasta : /home/drkthomp/e/protect-data/hg38.fa.tar.gz
+        gencode_peptide_fasta : /home/dranion/Treehouse/protect-index/gencode.v25.pc_translations_NOPARY.fa.tar.gz
+        gencode_transcript_fasta : /home/dranion/Treehouse/protect-index/gencode.v25.pc_transcripts_NOPARY.fa.tar.gz
+        gencode_annotation_gtf : /home/dranion/Treehouse/protect-index/gencode.v25.annotation_NOPARY.gtf.tar.gz
+        genome_fasta : /home/dranion/Treehouse/protect-index/hg38.fa.tar.gz
         # version: 2.2.2
 
 haplotyping:
     phlat:
-        index: /home/drkthomp/e/protect-data/phlat_index.tar.gz
+        index: /home/dranion/Treehouse/protect-index/phlat_index.tar.gz
         # version: 1.0
 
 mhc_peptide_binding:
     mhci:
-        method_file: /home/drkthomp/e/protect-data/mhci_restrictions.json.tar.gz
+        method_file: /home/dranion/Treehouse/protect-index/mhci_restrictions.json.tar.gz
         pred: IEDB_recommended
         # version: 2.13
     mhcii:
-        method_file: /home/drkthomp/e/protect-data/mhcii_restrictions.json.tar.gz
+        method_file: /home/dranion/Treehouse/protect-index/mhcii_restrictions.json.tar.gz
         pred: IEDB_recommended
         # version: 2.13
     netmhciipan:
@@ -163,7 +168,7 @@ prediction_ranking:
         # version: 2.0.3
 
 reports:
-    mhc_pathways_file: /home/drkthomp/e/protect-data/mhc_pathways.tsv.tar.gz
-    itx_resistance_file: /home/drkthomp/e/protect-data/itx_resistance.tsv.tar.gz
-    immune_resistance_pathways_file: /home/drkthomp/e/protect-data/immune_resistance_pathways.json.tar.gz
-    car_t_targets_file: /home/drkthomp/e/protect-data/car_t_targets.tsv.tar.gz
+    mhc_pathways_file: /home/dranion/Treehouse/protect-index/mhc_pathways.tsv.tar.gz
+    itx_resistance_file: /home/dranion/Treehouse/protect-index/itx_resistance.tsv.tar.gz
+    immune_resistance_pathways_file: /home/dranion/Treehouse/protect-index/immune_resistance_pathways.json.tar.gz
+    car_t_targets_file: /home/dranion/Treehouse/protect-index/car_t_targets.tsv.tar.gz

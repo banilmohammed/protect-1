@@ -15,15 +15,6 @@
 # limitations under the License.
 
 
-from collections import Counter
-
-from protect.common import export_results, get_files_from_filestore, untargz
-from protect.haplotyping.phlat import parse_phlat_file
-
-import os
-import pandas as pd
-import textwrap
-
 TCGAToGTEx = {'STAD': 'Stomach', 'KIRP': 'Kidney', 'THCA': 'Thyroid', 'PAAD': 'Pancreas',
               'KICH': 'Kidney', 'ESCA': 'Esophagus', 'CESC': 'Cervix Uteri',
               'PCPG': 'Adrenal Gland', 'BRCA': 'Breast', 'KIRC': 'Kidney', 'LUAD': 'Lung',

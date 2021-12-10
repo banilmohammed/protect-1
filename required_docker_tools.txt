@@ -30,6 +30,9 @@
 	samtools:0.1.8
 	strelka:1.0.15
 	bam-readcount:0.7.4
+	drkthomp/opossum:latest
+	sayerskt/platypus:latest
+
 
 # Mutation Annotation
 	snpeff:3.6

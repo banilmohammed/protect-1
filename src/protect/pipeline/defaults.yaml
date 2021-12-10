@@ -81,6 +81,12 @@ mutation_calling:
         run_trinity: True
         version: 1.0.1
 
+    opossum:
+        soft_clips: True
+        version: latest
+    platypus:
+        version: latest
+
 mutation_annotation:
     snpeff:
         version: 3.6

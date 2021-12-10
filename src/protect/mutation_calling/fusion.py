@@ -14,17 +14,15 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-from math import ceil
-
-from bd2k.util.expando import Expando
-from toil.job import PromisedRequirement
-
 import collections
 import csv
 import logging
 import os
 import re
-import string
+from math import ceil
+
+from bd2k.util.expando import Expando
+from toil.job import PromisedRequirement
 
 from protect.common import docker_call, export_results, get_files_from_filestore, untargz
 

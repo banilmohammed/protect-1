@@ -52,6 +52,7 @@ from protect.mutation_calling.indel import run_indel_caller
 from protect.mutation_calling.muse import run_muse
 from protect.mutation_calling.mutect import run_mutect
 from protect.mutation_calling.radia import run_radia
+from protect.mutation_calling.platypus import run_platypus_with_merge
 from protect.mutation_calling.somaticsniper import run_somaticsniper
 from protect.mutation_calling.strelka import run_strelka
 from protect.mutation_translation import run_transgene, transgene_disk
@@ -120,7 +121,7 @@ def _ensure_patient_group_is_ok(patient_object, patient_name=None):
             raise ParameterError(('The patient entry for sample %s ' % patient_name) +
                                  'does not contain a hla_haplotype_files entry.\nCannot haplotype '
                                  'patient if all the input sequence files are not fastqs.')
-        if {re.search('tumor_rna_((bam))|(fastq_1)).*', x) for x in test_set} != {None}:
+        if {re.search('tumor_rna_((bam)|(fastq_1)).*', x) for x in test_set} != {None}:
             pass
         # Either we have a fastq and/or bam for the tumor and normal, or we need to be given a vcf
         elif (({re.search('tumor_dna_((bam)|(fastq_1)).*', x) for x in test_set} == {None} or
@@ -628,6 +629,7 @@ def launch_protect(job, patient_data, univ_options, tool_options):
                                               univ_options, tool_options['reports'],
                                               disk='100M', memory='100M', cores=1)
     rsem.addChild(car_t_validity_assessment)
+    job.fileStore.logToMaster("patient data" +  str(patient_data))
     # Define the DNA-Seq alignment and mutation calling subgraphs if necessary
     if 'mutation_vcf' in patient_data:
         get_mutations = job.wrapJobFn(get_patient_vcf, sample_prep.rv())
@@ -635,9 +637,11 @@ def launch_protect(job, patient_data, univ_options, tool_options):
     elif 'fusion_bedpe' in patient_data:
         # Fusions have been handled above, and we don't need to align DNA
         get_mutations = None
-    elif 'tumor_rna' in patient_data and 'tumor_dna' not in patient_data:
+    elif ('tumor_rna' in bam_files or 'tumor_rna' in fastq_files) and ('tumor_dna' not in bam_files or 'tumor_dna' not in fastq_files):
         # this means we're doing an RNA run
-        mutations = {'protect':job.wrapJobFn(run_protect, bam_files['tumor_rna'].rv(), univ_options,tool_options['opossum'], tool_options['protect'])}
+        # we need the file as a bam
+        job.fileStore.logToMaster("tool options" + str(tool_options))
+        mutations = {'protect':job.wrapJobFn(run_platypus_with_merge, bam_files['tumor_rna'].rv(), univ_options,tool_options['opossum'], tool_options['platypus'])}
         bam_files['tumor_rna'].addChild(mutations['protect'])
         get_mutations = job.wrapJobFn(run_mutation_aggregator,
                                       {caller: cjob.rv() for caller, cjob in list(mutations.items())},
@@ -645,8 +649,6 @@ def launch_protect(job, patient_data, univ_options, tool_options):
                                       cores=1).encapsulate()
         for caller in mutations:
             mutations[caller].addChild(get_mutations)
-
-
     else:
         assert (None, None) not in list(zip(list(fastq_files.values()), list(bam_files.values())))
         for sample_type in 'tumor_dna', 'normal_dna':
@@ -812,7 +814,7 @@ def get_pipeline_inputs(job, input_flag, input_file, encryption_key=None, per_fi
         input_file = get_file_from_gdc(job, input_file, gdc_download_token=gdc_download_token,
                                        write_to_jobstore=True)
     else:
-        assert os.path.exists(input_file), 'Bogus Input : ' + input_file
+        #assert os.path.exists(input_file), 'Bogus Input : ' + input_file
         input_file = job.fileStore.writeGlobalFile(input_file)
     return input_file
 
@@ -1032,6 +1034,8 @@ def main():
                           "provided to maxCores (%s). Setting max-cores-per-job = maxCores." %
                           (params.max_cores, params.maxCores), file=sys.stderr)
                     params.max_cores = int(params.maxCores)
+        if 'maxDisk' not in params:
+            params['maxDisk'] = 29709815808 * .8
         start = Job.wrapJobFn(parse_config_file, params.config_file, params.max_cores)
         Job.Runner.startToil(start, params)
     return None

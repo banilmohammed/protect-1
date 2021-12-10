@@ -14,14 +14,14 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+import os
 from collections import Counter
+
+import pandas as pd
+
 from protect.addons.common import TCGAToGTEx
 from protect.common import export_results, get_files_from_filestore, untargz
 from protect.haplotyping.phlat import parse_phlat_file
-
-import json
-import os
-import pandas as pd
 
 
 def run_mhc_gene_assessment(job, rsem_files, rna_haplotype, univ_options, reports_options):

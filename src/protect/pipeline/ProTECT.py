@@ -991,6 +991,8 @@ def main():
     inputs.add_argument('--generate_config', dest='generate_config', help='Generate a config file '
                         'in the current directory that is pre-filled with references and flags for '
                         'an hg19 run.', action='store_true', default=False)
+    parser.add_argument('--reference', dest="reference", help="flag to enable downloading of hg38 human reference files.",
+                        default=False, action="store_true")
     parser.add_argument('--max-cores-per-job', dest='max_cores', help='Maximum cores to use per '
                         'job. Aligners and Haplotypers ask for cores dependent on the machine that '
                         'the launchpad gets assigned to -- In a heterogeneous cluster, this can '
@@ -1002,6 +1004,12 @@ def main():
     # ProTECT, we parse known args, and if the used specified config_file instead of generate_config
     # we re-parse the arguments with the added Toil parser.
     params, others = parser.parse_known_args()
+    if params.reference:
+        try :
+            print("Downloading hg38 reference files.")
+            os.system("aws s3 sync --request-payer requester s3://protect-data/hg38_references /mnt/neoepitopes/protect_references")
+        except:
+            sys.exit("Reference files could not be downloaded, ProTECT does not have the necessary data to run.")
     if params.generate_config:
         generate_config_file()
     else:

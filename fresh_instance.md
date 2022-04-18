@@ -35,4 +35,5 @@
          default output format: none
       
     * to check if aws is configured properly run: 
-      * aws s3 ls --request-payer requester protect-data/hg38_references/
+            
+          aws s3 ls --request-payer requester protect-data/hg38_references/

@@ -1,10 +1,10 @@
 # Setting Up A Fresh Instance
 * update all packages
-    sudo apt-get update
+    * sudo apt-get update
 * install python3 pip
-    sudo apt install python3-pip
+    * sudo apt install python3-pip
 * install virtualenv
-    pip install virutalenv
+    * pip3 install virutalenv
 * update path
     PATH=${PATH}:/home/ubuntu/.local/bin
 

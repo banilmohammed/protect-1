@@ -15,3 +15,9 @@
     * sudo aws/install
 * configure aws
     * aws configure
+      * enter AWS Access Key ID
+      * enter AWS Secret Key 
+      * default region name: us-west-1
+      * default output format: none
+    * to check if aws is configured properly run: 
+      * aws s3 ls --request-payer requester protect-data/hg38_references/

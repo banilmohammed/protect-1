@@ -50,4 +50,4 @@
       ProTECT --config path/to/config_file.yaml --workDir path/to/workDir/ path/to/jobStore --disableCaching --cleanWorkDir never --reference
       
 * the reference flag downloads the human genome reference to /mnt/neoepitopes/protect_references/, if not specified human genome reference files will not be downloaded, and ProTECT will be run as normal
-       * by default --reference will download references to /mnt/neoepitopes/protect_references
+* by default --reference will download references to /mnt/neoepitopes/protect_references

@@ -15,6 +15,14 @@
 
       sudo apt install libcurl4-openssl-dev libssl-dev
       
+* install docker
+
+      sudo apt install docker.io
+
+* give admin priveledges to docker
+
+      sudo usermod -aG docker username
+      
 * update path
       
       PATH=${PATH}:/home/ubuntu/.local/bin

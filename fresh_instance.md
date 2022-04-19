@@ -1,23 +1,47 @@
 # Setting Up A Fresh Instance
 * update all packages
-    * sudo apt-get update
+      
+      sudo apt-get update
+   
 * install python3 pip
-    * sudo apt install python3-pip
+      
+      sudo apt install python3-pip
+      
 * install virtualenv
-    * pip3 install virutalenv
+      
+      pip3 install virutalenv
+ 
+* install dependencies
+
+      sudo apt install libcurl4-openssl-dev libssl-dev
+      
+* install docker
+
+      sudo apt install docker.io
+
+* give admin priveledges to docker
+
+      sudo usermod -aG docker username
+      
 * update path
-    * PATH=${PATH}:/home/ubuntu/.local/bin
+      
+      PATH=${PATH}:/home/ubuntu/.local/bin
 
 # Installing and Configuring AWS
 * install aws
-    * curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-    * unzip awscliv2.zip
-    * sudo aws/install
+      
+      curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+      unzip awscliv2.zip
+      sudo aws/install
+      
 * configure aws
-    * aws configure
-      * enter AWS Access Key ID
-      * enter AWS Secret Key 
-      * default region name: us-west-1
-      * default output format: none
-    * to check if aws is configured properly run: 
-      * aws s3 ls --request-payer requester protect-data/hg38_references/
+      
+      aws configure
+         enter AWS Access Key ID
+         enter AWS Secret Key 
+         default region name: us-west-1
+         default output format: none
+      
+ * to check if aws is configured properly run: 
+            
+       aws s3 ls --request-payer requester protect-data/hg38_references/

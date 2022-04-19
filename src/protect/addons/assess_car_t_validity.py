@@ -62,7 +62,7 @@ def assess_car_t_validity(job, gene_expression, univ_options, reports_options):
                                                  work_dir)
 
     target_data = pd.read_table(input_files['car_t_targets.tsv'], index_col=0)
-    patient_df = pd.read_csv('rsem_quant.tsv', sep=' ', delimiter='\t', header='infer', index_col=0)
+    patient_df = pd.read_csv('rsem_quant.tsv', sep='\s+', header='infer', index_col=0)
     patient_df.index = (patient_df.index).str.replace('\\..*$', '')
 
     overexpressed = []

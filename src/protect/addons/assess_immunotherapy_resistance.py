@@ -69,7 +69,7 @@ def assess_itx_resistance(job, gene_expression, univ_options, reports_options):
         json_data = json.load(json_file)
 
     # Read patient file
-    patient_df = pd.read_csv('rsem_quant.tsv', sep=' ', delimiter='\t', header='infer', index_col=0)
+    patient_df = pd.read_csv('rsem_quant.tsv', sep='\s+', header='infer', index_col=0)
     patient_df.index = (patient_df.index).str.replace('\\..*$', '')
 
     with open('immunotherapy_resistance_report.txt', 'w') as report_file:

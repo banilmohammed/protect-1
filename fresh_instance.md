@@ -9,7 +9,7 @@
       
 * install virtualenv
       
-      pip3 install virutalenv
+      pip install --upgrade virtualenv 
  
 * install dependencies
 
@@ -19,7 +19,7 @@
 
       sudo apt install docker.io
 
-* give admin priveledges to docker
+* give admin privileges to docker
 
       sudo usermod -aG docker username
       

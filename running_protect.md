@@ -3,7 +3,7 @@
 ## ProTECT Installation
 * clone the ProTECT from the repo
 
-       git clone
+       git clone git@github.com:banilmohammed/protect-1.git
        
 * navigate to the protect folder
 

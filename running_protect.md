@@ -28,7 +28,7 @@
        
 * install cwltool
        
-       pip3 install cwltool
+       pip3 install cwltool==3.1.20211107152837
        
 * install proper pyyaml version
        

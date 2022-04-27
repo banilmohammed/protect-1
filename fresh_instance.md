@@ -15,9 +15,7 @@
 
       sudo apt install libcurl4-openssl-dev libssl-dev
       
-* install docker
-
-      sudo apt install docker.io
+* install docker following instructions from: [https://docs.docker.com/engine/install/ubuntu/]
 
 * give admin privileges to docker
 

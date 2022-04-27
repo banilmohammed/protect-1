@@ -7,7 +7,7 @@
        
 * navigate to the protect folder
 
-       cd  protect
+       cd  protect-1
     
 * create and activate the virtualenv
        

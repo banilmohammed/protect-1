@@ -11,7 +11,7 @@
     
 * create and activate the virtualenv
        
-       virutalenv --python=python3 venv
+       virtualenv --python=python3 venv
        source venv/bin/activate
        
 * install dependencies

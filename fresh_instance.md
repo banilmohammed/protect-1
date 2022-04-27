@@ -31,6 +31,7 @@ This process was tested on Ubuntu 20.04 LTS.
 * install aws
       
       curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+      sudo apt install unzip
       unzip awscliv2.zip
       sudo aws/install
       

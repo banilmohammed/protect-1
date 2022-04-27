@@ -1,4 +1,6 @@
 # Setting Up A Fresh Instance
+This process was tested on Ubuntu 20.04 LTS.
+
 * update all packages
       
       sudo apt-get update
@@ -19,7 +21,7 @@
 
 * give admin privileges to docker
 
-      sudo usermod -aG docker username
+      sudo usermod -aG docker [username]
       
 * update path
       
